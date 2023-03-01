@@ -15459,13 +15459,43 @@ div.jp-OutputPrompt {
 <li>combinare la stringa di testo &quot;<code>Ciao,</code>&quot; con il nome dell'utente, il tutto seguito da &quot;<code>!</code>&quot;;</li>
 <li>visualizzare il risultato.</li>
 </ol>
-<p>A un basso livello di astrazione, tutto è imperativo in programmazione. Se però aumentiamo l'astrazione, la programmazione imperativa potrebbe suddividersi in ulteriori categorie. Le tre più famose sono: il paradigma di programmazione procedurale, la programmazione orientata agli oggetti e l'approccio all'elaborazione parallela. Vediamo di illustrarle più in dettaglio.</p>
 
 </div>
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
+</aside></div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>A un basso livello di astrazione, tutto è imperativo in programmazione. Se però aumentiamo l'astrazione, la programmazione imperativa potrebbe suddividersi in ulteriori categorie. Le tre più famose sono:</p>
+<ul>
+<li>il paradigma di programmazione procedurale,</li>
+<li>la programmazione orientata agli oggetti,</li>
+<li>l'approccio all'elaborazione parallela.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Vediamo di illustrarle più in dettaglio.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside><div class="fragment" >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15491,6 +15521,82 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Come per qualuque algoritmo imperativo, in un codice procedurale abbiamo sempre degli elenchi di istruzioni che indicano al computer cosa fare, passo dopo passo. La differenza è che il codice, invece di essere scritto in modo lineare, viene raggruppato per aree funzionali. Ciascun &quot;gruppo&quot; deve avere poi un proprio identificativo e un proprio modo di essere &quot;chiamato&quot;, ovvero eseguito.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Questi gruppi funzionali di codice sono dunque una sorta di sotto-programmi, chiamati &quot;subroutine&quot; o appunto &quot;procedure&quot;, e possiamo farle corrispondere grosso modo alle funzioni. L'azione di eseguire una procedura viene definita come <em><strong>chiamata di procedura</strong></em>. Le procedure sono utili dunque quando è necessario eseguire più volte una porzione di codice che svolge sempre la medesima funzionalità. Da qui l'espressione <em>routine</em> o <em>subroutine</em>.</p>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>La differenza tra <em>procedura</em> e <em>funzione</em> è, ancora una volta, soprattutto filosofica. La procedura può modificare sia i dati che processa sia, di coseguenza, lo stato di esecuzione dell'intero programma. La funzione è (come vedremo nel paradigma funzionale) invece più &quot;neutrale&quot; e si limita a fornire un risultato sulla base dei dati forniti, ma senza alterarli.</p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Il vantaggio delle procedure è che facilitano l'organizzazione e consentono il riuso del codice:</p>
+
+</div>
+</div>
+</div>
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>&quot;Organizzazione&quot; perché esso viene suddiviso in diverse parti funzionali formalmente indipendenti tra loro, facilitando la comprensione della struttura e la manutenzione del codice.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>&quot;Riuso&quot; perché le istruzioni contenute in una procedura possono essere riutilizzate più volte senza necessità di duplicarle, riducendo così i tempi di scrittura, di manutenzione e risparmiando anche memoria nell'esecuzione.</li>
+</ul>
+
+</div>
+</div>
+</div>
 </div><aside class="notes">
 
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15499,18 +15605,83 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Come per qualuque algoritmo imperativo, in un codice procedurale abbiamo sempre degli elenchi di istruzioni che indicano al computer cosa fare, passo dopo passo.
-La differenza è che il codice, invece di essere scritto in modo lineare, viene raggruppato per aree funzionali. Ciascun &quot;gruppo&quot; deve avere poi un proprio identificativo e un proprio modo di essere &quot;chiamato&quot;, ovvero eseguito.</p>
-<p>Questi gruppi funzionali di codice sono dunque una sorta di sotto-programmi, chiamati &quot;subroutine&quot; o appunto &quot;procedure&quot;, e possiamo farle corrispondere grosso modo alle funzioni. L'azione di eseguire una procedura viene definita come *<strong>chiamata di procedura</strong><em>. Le procedure sono utili dunque quando è necessario eseguire più volte una porzione di codice che svolge sempre la medesima funzione. Da qui l'espressione </em>routine* o <em>subroutine</em>.</p>
-<p>La differenza tra <em>procedura</em> e <em>funzione</em> è, ancora una volta, soprattutto filosofica. La procedura può modificare sia i dati che processa sia, di coseguenza, lo stato di esecuzione dell'intero programma. La funzione è (come vedremo nel paradigma funzionale) invece più &quot;neutrale&quot; e si limita a fornire un risultato sulla base dei dati forniti, ma senza alterarli.</p>
-<p>Il vantaggio delle procedure è che facilitano l'organizzazione e consentono il riuso del codice:</p>
-<ul>
-<li>&quot;Organizzazione&quot; perché esso viene suddiviso in diverse parti funzionali formalmente indipendenti tra loro, facilitando la comprensione della struttura e la manutenzione del codice.</li>
-<li>&quot;Riuso&quot; perché le istruzioni contenute in una procedura possono essere riutilizzate più volte senza necessità di duplicarle, riducendo così i tempi di scrittura, di manutenzione e risparmiando anche memoria nell'esecuzione.</li>
-</ul>
-<p>La programmazione procedurale è adatta alla programmazione di uso generale per completare compiti comuni. Può trattarsi di un piccolo problema di calcolo, come il calcolo di un fattoriale o la ricerca dell'area di una figura, la modifica a una serie di immagini, o la visualizzazione di alcune informazioni/frasi come &quot;Hello, world!&quot;.</p>
+<p>La programmazione procedurale è adatta alla programmazione di uso generale per completare compiti comuni. Può trattarsi di un piccolo problema di calcolo, come trasformare un numero nel suo fattoriale, la modifica a una serie di immagini, o la visualizzazione di alcune informazioni/frasi come &quot;Hello, world!&quot;.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Un algoritmo scritto puramente in questo paradigma è generalmente molto semplice da implementare, ma è relatvamente più lento lento di altre soluzioni e non può risolvere un problema troppo complesso.</p>
 <p>I linguaggi di programmazione che facilitano le implementazioni con il paradigma della programmazione procedurale sono C, Java, C++, ColdFusion e Pascal.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Programmazione-orientata-agli-oggetti">Programmazione orientata agli oggetti<a class="anchor-link" href="#Programmazione-orientata-agli-oggetti">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>La programmazione orientata agli oggetti o OOP (dall'inglese <em>Object-Oriented Programming</em>) è un paradigma in cui il programma è scritto come una collezione di classi. Ogni classe ha istanze chiamate oggetti.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Il termine &quot;oggetto&quot; deriva dal paragone con gli oggetti materiali del mondo reale, i quali possono venire progettati in astratto e poi realizzati in molteplici copie, forme e versioni. Inoltre gli oggetti hanno delle proprietà, delle funzioni e delle modalità specifiche con cui possiamo interagire con loro.</p>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Analogamente, in programmazione, una classe è un modo per descrivere un'entità in generale, definendo lo stato abituale e il comportamento che dipende da tale stato, nonché le regole abituali per interagire con tale entità. Formalmente, una classe è vista come un insieme di dati come campi, attributi e funzioni, cioè metodi (modi) per lavorare con essa. Tutti questi elementi sono detti &quot;membri&quot; della classe.</p>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Ritornando all'esempio degli oggetti fisici, proviamo a descrivere l'entità &quot;bicchiere&quot; usando una classe. Un qualunque bicchiere sarà dunque un oggetto della classe Bicchiere. Possiamo ora individuare degli attributi a noi utili, per esempio il materiale con cui il bicchiere è costruito, la capienza totale, la quantità di liquido contenuta in un certo momento e soprattutto, se è utilizzabile o no. Alcuni attributi sono modificabili, altri invece sono determinati quando il bicchiere viene costruito. Alcuni attributi dipendono da altri attributi, mentre altri sono condizinati dalle condizioni dell'ambiente esterno all'oggetto. Poi abbiamo le azioni che possiamo compiere con il bicchiere. Ad esempio ci sarà utile poterlo riempire e poter bere da esso, magari lavarlo e poi riporlo, e perché no, anche romperlo. Avremo quindi riempi(), bevi(), lava(), riponi() e rompi(). Tutti questi sono i metodi del bicchiere.</p>
 
 </div>
 </div>
@@ -15523,7 +15694,8 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Programmazione-orientata-agli-oggetti">Programmazione orientata agli oggetti<a class="anchor-link" href="#Programmazione-orientata-agli-oggetti">&#182;</a></h4>
+<p>Notate bene che, in fin dei conti, i metodi non sono altro che procedure o fuzioni; quindi l'OOP può essere vista da un certo punto di vista come coesistente al paradigma procedurale e funzionale.</p>
+
 </div>
 </div>
 </div>
@@ -15535,11 +15707,6 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>La programmazione orientata agli oggetti o OOP (dall'inglese <em>Object-Oriented Programming</em>) è un paradigma in cui il programma è scritto come una collezione di classi. Ogni classe ha istanze chiamate oggetti.</p>
-<p>Il termine &quot;oggetto&quot; deriva dal paragone con gli oggetti materiali del mondo reale, i quali possono venire progettati in astratto e poi realizzati in molteplici copie, forme e versioni. Inoltre gli oggetti hanno delle proprietà, delle funzioni e delle modalità specifiche con cui possiamo interagire con loro.</p>
-<p>Analogamente, in programmazione, una classe è un modo per descrivere un'entità in generale, definendo lo stato abituale e il comportamento che dipende da tale stato, nonché le regole abituali per interagire con tale entità. Formalmente, una classe è vista come un insieme di dati come campi, attributi e funzioni, cioè metodi (modi) per lavorare con essa. Tutti questi elementi sono detti &quot;membri&quot; della classe.</p>
-<p>Ritornando all'esempio degli oggetti fisici, proviamo a descrivere l'entità &quot;bicchiere&quot; usando una classe. Un qualunque bicchiere sarà dunque un oggetto della classe Bicchiere. Possiamo ora individuare degli attributi a noi utili, per esempio il materiale con cui il bicchiere è costruito, la capienza totale, la quantità di liquido contenuta in un certo momento e soprattutto, se è utilizzabile o no. Alcuni attributi sono modificabili, altri invece sono determinati quando il bicchiere viene costruito. Alcuni attributi dipendono da altri attributi, mentre altri sono condizinati dalle condizioni dell'ambiente esterno all'oggetto. Poi abbiamo le azioni che possiamo compiere con il bicchiere. Ad esempio ci sarà utile poterlo riempire e poter bere da esso, magari lavarlo e poi riporlo, e perché no, anche romperlo. Avremo quindi riempi(), bevi(), lava(), riponi() e rompi(). Tutti questi sono i metodi del bicchiere.</p>
-<p>Notate bene che, in fin dei conti, i metodi non sono altro che procedure o fuzioni; quindi l'OOP può essere vista da un certo punto di vista come coesistente al paradigma procedurale e funzionale.</p>
 <p>L'OOP consente di gestire moltissime tipologie di problemi comuni della vita di tutti i giorni, o per lo meno tutte quelle in cui è conveniente creare dei modelli astratti che rappresentino le entità che dobbiamo manipolare.</p>
 <p>I linguaggi di programmazione che facilitano le implementazioni con il paradigma OOP sono Ruby, Java, C++, Python, Simula (il primo linguaggio OOP), Smalltalk, Visual Basic .NET e Objective-C.</p>
 
@@ -15547,7 +15714,7 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
+</aside></div></section><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15558,6 +15725,30 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 </div>
 </div>
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Si ricorre all'elaborazione parallela quando è necessario ridurre il tempo di esecuzione delle istruzioni per raggiungere il risultato più in fretta.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Lo si fa condividendo o parallelizzando le istruzioni su più processori o addirittura su più computer diversi. Il significato di questo approccio può essere riassunto in una frase: &quot;divide et impera&quot;.</p>
+
+</div>
+</div>
+</div>
 </div><aside class="notes">
 
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15566,7 +15757,6 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Si ricorre all'elaborazione parallela quando è necessario ridurre il tempo di esecuzione delle istruzioni per raggiungere il risultato più in fretta. Lo si fa condividendo o parallelizzando le istruzioni su più processori o addirittura su più computer diversi. Il significato di questo approccio può essere riassunto in una frase: &quot;divide et impera&quot;.</p>
 <p>Esempi di linguaggi di programmazione che facilitano le implementazioni con questo paradigma sono: NESL (uno dei più vecchi) e C / C++ con il supporto di librerie ad-hoc, native o esterne come CUDA e OpenCL.</p>
 
 </div>
@@ -15620,6 +15810,23 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 </div>
 </div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Anche in questo caso, se aumentiamo l'astrazione, la programmazione dichiarativa si può suddividere in più paradigmi. I più celebri sono:</p>
+<ul>
+<li>paradigmi logici,</li>
+<li>paradigmi funzionali,</li>
+<li>paradigmi quelli orientati ai database.</li>
+</ul>
+
+</div>
+</div>
+</div>
 </div><aside class="notes">
 
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15628,7 +15835,7 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Anche in questo caso, se aumentiamo l'astrazione, la programmazione dichiarativa si può suddividere in più paradigmi. I più celebri sono: paradigmi logici, funzionali e quelli orientati ai database. Li descriviamo più in dettaglio di seguito.</p>
+<p>Li descriviamo più in dettaglio di seguito.</p>
 
 </div>
 </div>
@@ -15645,6 +15852,47 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 </div>
 </div>
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>La programmazione logica è un paradigma di programmazione fortemente basato sulla logica formale. Un algoritmo scritto seguendo il paradigma logico è un insieme di frasi in forma logica che esprimono fatti e regole su una certa area problematica.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Le affermazioni di base della programmazione logica sono quindi le seguenti:</p>
+<ul>
+<li>I fatti sono asserzioni fondamentali sul dominio del problema. Es. &quot;Socrate è un uomo&quot;.</li>
+<li>Le regole sono inferenze sui fatti del dominio. Es. &quot;Tutti gli uomini sono mortali&quot;.</li>
+<li>Le domande sono domande sul dominio. Es. &quot;Socrate è mortale?&quot;.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>In generale, il compito è quello di trovare la risposta alla domanda sulla base dei fatti e delle regole.</p>
+
+</div>
+</div>
+</div>
 </div><aside class="notes">
 
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15653,21 +15901,13 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>La programmazione logica è un paradigma di programmazione fortemente basato sulla logica formale. Un algoritmo scritto seguendo il paradigma logico è un insieme di frasi in forma logica che esprimono fatti e regole su una certa area problematica.</p>
-<p>Le affermazioni di base della programmazione logica sono quindi le seguenti:</p>
-<ul>
-<li>I fatti sono asserzioni fondamentali sul dominio del problema. Es. &quot;Socrate è un uomo&quot;.</li>
-<li>Le regole sono inferenze sui fatti del dominio. Es. &quot;Tutti gli uomini sono mortali&quot;.</li>
-<li>Le domande sono domande sul dominio. Es. &quot;Socrate è mortale?&quot;.</li>
-</ul>
-<p>In generale, il compito è quello di trovare la risposta alla domanda sulla base dei fatti e delle regole.</p>
 <p>Alcuni dei linguaggi che nascono con lo scopo di facilitare la programmazione logica sono: Prolog, Answer Set Programming (ASP) e Datalog.</p>
 
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
+</aside></div></section><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15678,6 +15918,42 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 </div>
 </div>
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>La programmazione funzionale è un paradigma di programmazione in cui il flusso di esecuzione del programma è costruito applicando e componendo funzioni.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>La funzione, in questo caso, è da intedersi simile a una funzione matematica. Si tratta di una funzione in cui l'input è una struttura di dati che non viene modificata e l'output è una nuova struttura con nuovi dati.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Ciò rende una funzione matematica diversa da una funzione della programmazione procedurale, dove una procedura/funzione è intesa come una sequenza di azioni che possono anche alterare i dati originali e lo stato di esecuzione.</p>
+
+</div>
+</div>
+</div>
 </div><aside class="notes">
 
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15686,17 +15962,41 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>La programmazione funzionale è un paradigma di programmazione in cui il flusso di esecuzione del programma è costruito applicando e componendo funzioni.</p>
-<p>La funzione, in questo caso, è da intedersi simile a una funzione matematica. Si tratta di una funzione in cui l'input è una struttura di dati che non viene modificata e l'output è una nuova struttura con nuovi dati. Ciò rende una funzione matematica diversa da una funzione della programmazione procedurale, dove una procedura/funzione è intesa come una sequenza di azioni che possono anche alterare i dati originali e lo stato di esecuzione.</p>
 <p>È un paradigma di programmazione dichiarativo in cui le definizioni delle funzioni sono semplici sequenze sequenze o alberi di espressioni che mappano valori ad altri valori, piuttosto che una sequenza di istruzioni imperative che aggiornano lo stato di esecuzione del programma.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Per fate un semplice esempio, si potrebbe avere una funzione che prende in input un elenco di numeri e restituisce un nuovo elenco con i quadrati di quei numeri. Questo non modifica l'elenco originale di numeri. Un esempio più complesso potrebbe essere un'applicazione che prende in input delle coodinate cartesiame e il valore di zoom e restituisce un immagine dell'<a href="https://it.wikipedia.org/wiki/Insieme_di_Mandelbrot">insieme di Mandelbrot</a>.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>I linguaggi di programmazione che facilitano il paradigma della programmazione funzionale sono Haskell, Scala, Julia, Erlang, Lisp, ML, Clojure, OCaml e F#.</p>
 
 </div>
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
+</aside></div></section><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15715,9 +16015,82 @@ La differenza è che il codice, invece di essere scritto in modo lineare, viene 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Le basi di dati, in inglese <em>database</em> (DB), sono il cuore di ogni sistema informativo aziendale e consentono la gestioe di file, l'inserimento di dati, l'aggiornamento, l'interrogazione e le funzioni di reportistica. Un database è una raccolta organizzata di informazioni strutturate, i dati, archiviati elettronicamente in un sistema informatico. Un database è poi solitamente controllato da un programma detto DBMS (<em>DataBase Management System</em>).</p>
-<p>Per elaborare i dati e interrogarli, solitamente il DBMS mette a disposizione un linguaggio ad hoc avente una grammatica speciale detto <em>linguaggio di interrogazione</em>. Con questo linguaggio è possibile accedere ai dati per filtrarli, trasformarli, calcolare statistiche e così via. Il DBMS è dunque una sorta di metaprogramma che esegue il nostro &quot;programma&quot; scritto con il linguaggio di interrogazione.</p>
-<p>Il &quot;programma&quot; che viene scritto con il linguaggio di interrogazione è molto particolare. In realtà non è un programma vero e proprio, ma viene appunto definito &quot;interrogazione&quot; o in ingleese, *<strong>query</strong>*. Le istruzioni che il DBMS deve eseguire sono definite quindi dalle query, dai dati in ingresso, con i quali definiamo ciò che vogliamo in uscita, piuttosto che da una serie di passaggi definiti dal programmatore.</p>
+<p>Le basi di dati, in inglese <em>database</em> (DB), sono il cuore di ogni sistema informativo aziendale e consentono la gestione di file, l'inserimento di dati, l'aggiornamento, l'interrogazione e le funzioni di reportistica.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Un database è una raccolta organizzata di informazioni strutturate, i dati, archiviati elettronicamente in un sistema informatico. Un database è poi solitamente controllato da un programma detto DBMS (<em>DataBase Management System</em>).</p>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Per elaborare i dati e interrogarli, solitamente il DBMS mette a disposizione un linguaggio ad hoc avente una grammatica speciale detto <em>linguaggio di interrogazione</em>. Con questo linguaggio è possibile accedere ai dati per filtrarli, trasformarli, calcolare statistiche e così via.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Il DBMS è dunque una sorta di metaprogramma che esegue il nostro &quot;programma&quot; scritto con il linguaggio di interrogazione.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Il &quot;programma&quot; che viene scritto con il linguaggio di interrogazione è molto particolare. In realtà non è un programma vero e proprio, ma viene appunto definito &quot;interrogazione&quot; o in ingleese, <em><strong>query</strong></em>.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Le istruzioni che il DBMS deve eseguire sono definite quindi dalle query, dai dati in ingresso, con i quali definiamo ciò che vogliamo in uscita, piuttosto che da una serie di passaggi definiti dal programmatore.</p>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Ci sono molte tipologie di database e altrettanti linquaggi di interogazione. Le due più famose famiglie di DB sono quella dei database relazionali con linguaggi strutturati e quella dei database non relazionali con linguaggi non strutturati. Alla prima categoria possiamo far risalire il classico e intramontabile SQL (Structured Query Language) e tutti i suoi <a href="https://en.wikipedia.org/wiki/List_of_relational_database_management_systems">dialetti/implementazioni</a>, mentre alla seconda categoria appartengono numerosi proggetti che possiamo definire NoSQL (Non-Structured Query Language). Il più famoso database NoSQL è senza dubbio MongoDB.</p>
 <p>NOTA BENE: I linquaggi di interrogazione sono progettati per uno scopo specifico: interrogare i dati contenuti in un database. Questi linguaggi di solito sono puramente dichiarativi basati su operazioni logiche (insiemi, grafi, dizionari...), non linguaggi di programmazione imperativi come quelli che abbiamo visto precedentemente. Tuttavia, a volte i linquaggi di interrogazione offrono <em>estensioni</em> anche consentono di utilizzare funzionalità tipiche della programmazione procedurale, come i costrutti di controllo del flusso.</p>
 
