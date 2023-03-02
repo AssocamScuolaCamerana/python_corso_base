@@ -14513,6 +14513,10 @@ a.anchor-link {
 .reveal {
   font-size: 160%;
 }
+.reveal ::selection {
+    color: black!important;
+    background: white!important;
+}
 .reveal table {
   font-size: var(--jp-ui-font-size1);
 }
@@ -14867,7 +14871,7 @@ div.jp-OutputPrompt {
 <li>Alto consumo di memoria (RAM).</li>
 <li>La tipizzazione <em>dinamica</em> può portare a grossi problemi se non gestita in modo consapevole.</li>
 <li>Le falle nella sicurezza sono dietro l'angolo se non si fanno adeguati test di qualità.</li>
-<li>Il multithreading e il multiprocessing possono comportarsi in modi diversi su piattaforme diverse ed è talvolta necessario ricorrere a differenti implementazioni di Python (es. <a href="https://foss.heptapod.net/pypy/pypy">PyPy</a>) per avere un incremento delle prestazioni.</li>
+<li>Il multithreading e il multiprocessing possono comportarsi in modi diversi su piattaforme diverse ed è talvolta necessario ricorrere a differenti implementazioni di Python (es. <a href="https://foss.heptapod.net/pypy/pypy">PyPy</a>) o estensioni (es. <a href="https://cython.org/">Cython</a> per avere un incremento delle prestazioni.</li>
 </ul>
 
 </div>
@@ -14915,12 +14919,48 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./imgs/bytecode.png" alt="bytecode.jpeg" /></p>
+<p>Il codice sorgente Python viene compilato in bytecode, la rappresentazione interna di un programma Python nell'interprete CPython.</p>
 
 </div>
 </div>
 </div>
 </div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="./imgs/bytecode.png" alt="bytecode.jpeg" /></p>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Il bytecode generato viene anche memorizzato (<em>cached</em>) in un file con estensione <code>.pyc</code>, in modo che l'esecuzione dello stesso file sia più veloce la seconda volta (si evita la ricompilazione dal sorgente al bytecode).</p>
+
+</div>
+</div>
+</div>
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Questo &quot;linguaggio intermedio&quot; viene eseguito su una macchina virtuale che esegue il codice macchina corrispondente a ciascun bytecode.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
