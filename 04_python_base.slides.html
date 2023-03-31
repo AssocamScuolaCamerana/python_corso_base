@@ -16462,7 +16462,7 @@ tu?
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Tipi-di-dato">Tipi di dato<a class="anchor-link" href="#Tipi-di-dato">&#182;</a></h1><p>In Python la nozione di &quot;<strong>tipo di dato</strong>&quot; si sovrappone a quella di &quot;<strong>classe</strong>&quot;.</p>
+<h1 id="Tipi-di-dato:-%3Cclass-'type'%3E">Tipi di dato: <code>&lt;class 'type'&gt;</code><a class="anchor-link" href="#Tipi-di-dato:-%3Cclass-'type'%3E">&#182;</a></h1><p>In Python la nozione di &quot;<strong>tipo di dato</strong>&quot; si sovrappone a quella di &quot;<strong>classe</strong>&quot;.</p>
 
 </div>
 </div>
@@ -16486,7 +16486,7 @@ tu?
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Ogni oggetto ha dunque un tipo che descrive come deve essere conservato in memoria, quali operazioni possono essere applicate a questo oggetto e come calcolarle.</p>
+<p>Ogni oggetto di un tipo specifico è in realtà un'istanza di una classe che descrive come un oggetto di quel tipo deve essere conservato in memoria, quali operazioni possono essere applicate all'oggetto e come calcolarle.</p>
 
 </div>
 </div>
@@ -17155,7 +17155,7 @@ Cell <span class="ansi-green-fg">In[23], line 2</span>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Dato che anche le classi sono degli oggetti, possiamo usare <code>type</code> per conoscere la classe di appartenenca di una certa classe.</p>
+<p>Dato che anche le classi sono degli oggetti, possiamo usare <code>type</code> per conoscere la classe di appartenenza di una certa classe.</p>
 
 </div>
 </div>
@@ -18169,32 +18169,147 @@ pluto: [1, 20]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Il-giusto-nome-(@todo)">Il giusto nome (@todo)<a class="anchor-link" href="#Il-giusto-nome-(@todo)">&#182;</a></h3><p>Come sapete, ogni variabile ha un nome che la identifica in modo univoco tra le altre variabili. Dare un buon nome a una variabile può non essere così semplice come sembra.</p>
-<p>I programmatori esperti sono attenti a dare un nome alle loro variabili per garantire che i loro programmi siano facili da capire. È importante perché i programmatori passano molto tempo a leggere e capire il codice scritto da altri programmatori. Se le variabili hanno nomi sbagliati, anche il vostro stesso codice vi sembrerà poco chiaro nel giro di pochi mesi.</p>
-<p>In questo argomento, considereremo come scegliere dei buoni nomi per le variabili, in accordo con le convenzioni e le migliori pratiche stabilite dalla comunità Python.</p>
-<h3 id="Convenzioni-di-stile-del-codice">Convenzioni di stile del codice<a class="anchor-link" href="#Convenzioni-di-stile-del-codice">&#182;</a></h3><p>La PEP 8 fornisce alcune regole per i nomi delle variabili per aumentare la leggibilità del codice.</p>
+<h3 id="Stile-e-buone-pratiche-per-i-nomi">Stile e buone pratiche per i nomi<a class="anchor-link" href="#Stile-e-buone-pratiche-per-i-nomi">&#182;</a></h3><p>Come sapete, ogni variabile ha un nome che la identifica in modo univoco tra le altre variabili. Dare un buon nome a una variabile può non essere così semplice come sembra.</p>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>I programmatori esperti sono attenti a dare un nome alle loro variabili per garantire che i loro programmi siano facili da capire. È importante perché i programmatori passano più tempo a leggere codice che a scriverlo. Se le variabili hanno nomi sbagliati, anche il vostro stesso codice vi sembrerà poco chiaro nel giro di pochi mesi.</p>
+<p>Come scegliere dei buoni nomi per le variabili, in accordo con le convenzioni e le migliori pratiche stabilite dalla comunità Python?</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside><div class="fragment" >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>La PEP 8 fornisce alcune regole per i nomi delle variabili per aumentare la leggibilità del codice.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Usare le lettere minuscole e i trattini bassi per dividere le parole. Anche se si tratta di un'abbreviazione.</p>
-<div class="highlight"><pre><span></span><span class="n">http_response</span>  <span class="c1"># yes!</span>
+<div class="highlight"><pre><span></span><span class="n">http_response</span>  <span class="c1"># sì!</span>
 <span class="n">httpresponse</span>  <span class="c1"># no</span>
 <span class="n">myVariable</span>  <span class="c1"># no, il camelCase è un tipico di Java.</span>
 </pre></div>
-<p>Tuttavia, se si vuole definire una costante, è comune scrivere il suo nome in tutte lettere maiuscole e, ancora una volta, separare le parole con i trattini bassi. Normalmente, le costanti sono memorizzate in file speciali chiamati moduli. Anche se ne parleremo più avanti, ecco un piccolo esempio:</p>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Abbiamo già visto che se si vuole definire una costante, è comune scrivere il suo nome in tutte lettere maiuscole e, ancora una volta, separare le parole con i trattini bassi.</p>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Normalmente, le costanti sono memorizzate in file speciali chiamati moduli. Anche se ne parleremo più avanti, ecco un piccolo esempio:</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <div class="highlight"><pre><span></span><span class="n">VELOCITÀ_DI_LUCE</span> <span class="o">=</span> <span class="mi">299792458</span>
 </pre></div>
-<p>Evitate nomi di una sola lettera che potrebbero essere facilmente confusi con i numeri, come 'l' (lettera minuscola elle), 'O' (lettera maiuscola O) o 'I' (lettera maiuscola I).</p>
-<div class="highlight"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="mi">1</span>    <span class="c1"># no, non si capisce se è una &quot;elle&quot; o una &quot;i&quot;</span>
+
+</div>
+</div>
+</div>
+</div><div class="fragment" >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Evitate nomi di una sola lettera che potrebbero essere facilmente confusi con i numeri, come <code>l</code> (lettera minuscola &quot;elle&quot;), <code>O</code> (lettera maiuscola &quot;o&quot;) o <code>I</code> (lettera maiuscola &quot;i&quot;).</p>
+<div class="highlight"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="mi">1</span>    <span class="c1"># no, non si capisce se è una &quot;elle&quot; o una &quot;i&quot; maiuscola</span>
 <span class="n">O</span> <span class="o">=</span> <span class="mi">100</span>  <span class="c1"># no, se si usa questo nome di variabile più avanti nel codice, può sembrare uno zero</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Sebbene sia possibile utilizzare qualsiasi simbolo Unicode, la convenzione di stile del codice raccomanda di limitare i nomi delle variabili ai caratteri ASCII.</p>
 <div class="highlight"><pre><span></span><span class="c1"># L&#39;uso del cirillico al posto del latino può causare una serata di inutili mal di testa.</span>
 <span class="c1"># Queste sono variabili diverse!</span>
 <span class="n">copy</span> <span class="o">=</span> <span class="s2">&quot;Sono scritto in alfabeto latino&quot;</span>  <span class="c1"># sì!</span>
 <span class="n">сору</span> <span class="o">=</span> <span class="s2">&quot;E io sono scritto in cirillico!&quot;</span>  <span class="c1"># no</span>
 </pre></div>
-<p>Se il nome della variabile più adatto è una parola chiave di Python, aggiungete un trattino basso alla fine.</p>
+
+</div>
+</div>
+</div>
+</div><div class="fragment" >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Se il nome della variabile più adatto fosse una parola chiave di Python, aggiungete un trattino basso alla fine.</p>
 <div class="highlight"><pre><span></span><span class="n">class_</span> <span class="o">=</span> <span class="nb">type</span><span class="p">(</span><span class="n">var</span><span class="p">)</span>  <span class="c1"># sì!</span>
 <span class="n">klass</span> <span class="o">=</span> <span class="nb">type</span><span class="p">(</span><span class="n">var</span><span class="p">)</span>   <span class="c1"># no</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Esistono anche alcune buone pratiche comuni a molti linguaggi di programmazione.</p>
 <p>Scegliere un nome che abbia senso. Il nome della variabile deve essere leggibile e descrittivo e deve spiegare al lettore che tipo di valori saranno memorizzati in essa.</p>
 <div class="highlight"><pre><span></span><span class="n">score</span>  <span class="c1"># sì!</span>
@@ -18203,35 +18318,102 @@ pluto: [1, 20]
 <span class="n">count</span>  <span class="c1"># sì!</span>
 <span class="n">n</span>      <span class="c1"># no</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+</div><div class="fragment" >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Non utilizzate nomi troppo generici. Cercate di scegliere un nome che spieghi il significato della variabile. Ma non fatelo troppo lungo. Di solito sono sufficienti 1-3 parole.</p>
 <div class="highlight"><pre><span></span><span class="n">http_response</span>                  <span class="c1"># sì!</span>
 <span class="n">var1</span>                           <span class="c1"># no</span>
 <span class="n">http_response_from_the_server</span>  <span class="c1"># no, facile dimenticare delle parole o l&#39;ordine delle stesse</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Se una parola è lunga, cercate di trovare la forma abbreviata più comune e attesa, per renderla più facile da indovinare in seguito.</p>
 <div class="highlight"><pre><span></span><span class="n">output_file_path</span>  <span class="c1"># sì!</span>
 <span class="n">fpath</span>             <span class="c1"># no</span>
 <span class="n">output_flpth</span>      <span class="c1"># no</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+</div><div class="fragment" >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Evitare i nomi dell'elenco dei tipi incorporati.</p>
 <div class="highlight"><pre><span></span><span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;Hello!&#39;</span>  <span class="c1"># no, perché nel codice successivo non si può usare il tipo str, perché è sovrascritto.</span>
 </pre></div>
-<p>Si noti che l'ultima best practice è piuttosto specifica di Python.</p>
-<h3 id="Riassumendo">Riassumendo<a class="anchor-link" href="#Riassumendo">&#182;</a></h3><p>Tutte le convenzioni di denominazione e le best practice sono facoltative, ma si raccomanda vivamente di seguirle.</p>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Riassumendo">Riassumendo<a class="anchor-link" href="#Riassumendo">&#182;</a></h2><p>Tutte le convenzioni di denominazione e le buone pratiche sono facoltative, ma si raccomanda vivamente di seguirle.</p>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Come abbiamo detto all'inizio di questa sezione, esse rendono il codice più leggibile e autodescrittivo per voi e per gli altri programmatori.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside><div class="fragment" >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Le pratiche più importanti:</p>
 <ul>
 <li>Scegliere un nome che sia leggibile e descrittivo, ma non troppo prolisso (1-3 parole sono sufficienti).</li>
 <li>Usare le lettere minuscole e separare le parole con i trattini bassi quando si definiscono le variabili.</li>
 <li>Usare tutte le lettere maiuscole quando si definiscono le costanti.</li>
-<li>Evitare nomi di una sola lettera che potrebbero essere facilmente confusi con numeri, come &quot;l&quot;, &quot;O&quot; o &quot;I&quot;.</li>
-<li>Evitate nomi che si sovrappongono ai nomi degli oggetti incorporati. Se il nome più adatto è una keyword di Python, aggiungere un trattino basso alla fine (class_).</li>
+<li>Evitare nomi di una sola lettera che potrebbero essere facilmente confusi con numeri, come <code>l</code>, <code>O</code> o <code>I</code>.</li>
+<li>Evitate nomi che si sovrappongono ai nomi degli oggetti incorporati. Se il nome più adatto è una keyword di Python, aggiungere un trattino basso alla fine (es. <code>max_</code>).</li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></section><section >
+</div></div><div class="fragment" >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -18244,7 +18426,7 @@ pluto: [1, 20]
 </div>
 </div>
 </div>
-</div></section><section >
+</div></div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -19819,7 +20001,10 @@ Cell <span class="ansi-green-fg">In[44], line 1</span>
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Inserisci un numero intero: 8
+</pre>
+</div>
 </div>
 
 </div>
@@ -19882,15 +20067,9 @@ Cell <span class="ansi-green-fg">In[44], line 1</span>
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>15
+<pre>Inserisci un numero intero: 8
+15
 </pre>
 </div>
 </div>
@@ -19944,15 +20123,9 @@ Cell <span class="ansi-green-fg">In[44], line 1</span>
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>15
+<pre>Inserisci un numero intero: 8
+15
 </pre>
 </div>
 </div>
@@ -20003,15 +20176,9 @@ Cell <span class="ansi-green-fg">In[44], line 1</span>
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>15
+<pre>Inserisci un numero intero: 8
+15
 </pre>
 </div>
 </div>
@@ -20039,8 +20206,7 @@ Cell <span class="ansi-green-fg">In[44], line 1</span>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>$$ \frac{(n+n)n-n}{n} \quad = \quad \frac{(n^2+n^2)-n}{n} \quad = \quad \frac{2n^2-n}{n} \quad = \quad \frac{2n\cancel{^2}}{\cancel{n}} - \frac{\cancel{n}}{\cancel{n}} \quad = \quad 2n-1</p>
-
+$$ \frac{(n+n)n-n}{n} \quad = \quad \frac{(n^2+n^2)-n}{n} \quad = \quad \frac{2n^2-n}{n} \quad = \quad \frac{2n\cancel{^2}}{\cancel{n}} - \frac{\cancel{n}}{\cancel{n}} \quad = \quad 2n-1 $$
 </div>
 </div>
 </div>
@@ -20087,15 +20253,9 @@ Cell <span class="ansi-green-fg">In[44], line 1</span>
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>15
+<pre>Inserisci un numero intero: 8
+15
 </pre>
 </div>
 </div>
@@ -21635,15 +21795,9 @@ math.trunc = trunc(x, /)
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Ciao, Guido van Rossum!
+<pre> Guido van Rossum
+Ciao, Guido van Rossum!
 </pre>
 </div>
 </div>
@@ -21732,15 +21886,9 @@ math.trunc = trunc(x, /)
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Ciao, Guido van Rossum!
+<pre>Prego, inserisci il tuo nome:  Guido van Rossum
+Ciao, Guido van Rossum!
 </pre>
 </div>
 </div>
@@ -21806,23 +21954,8 @@ math.trunc = trunc(x, /)
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Prego, inserisci il tuo nome: 
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Ciao, Guido van Rossum!
+ Guido van Rossum
+Ciao, Guido van Rossum!
 </pre>
 </div>
 </div>
@@ -21949,7 +22082,10 @@ math.trunc = trunc(x, /)
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Qual è il tuo numero preferito? 345
+</pre>
+</div>
 </div>
 
 </div>
@@ -22009,15 +22145,10 @@ math.trunc = trunc(x, /)
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-</div>
-<div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Ciao, Guido van Rossum!
+<pre>Inserisci il tuo nome: Guido
+Inserisci il tuo cognome: van Rossum
+Ciao, Guido van Rossum!
 </pre>
 </div>
 </div>
