@@ -91,8 +91,11 @@ if __name__ == '__main__':                    # se viene esegiuto come script
     from optparse import OptionParser         # importo la classe OptionParser
                                               # (uno strumento più avanzato per leggere parametri e opzioni
                                               # rispetto a sys.argv e crea l'opzione di help in automatico)
+    
+    # preparo una stringa di messaggio per l'Usage
     usage_msg = '%prog [options] <input_file> <output_file>'
     # usage_msg = './converti_nomi_nascita.py [options] <input_file> <output_file>'
+    
     optparser = OptionParser(usage=usage_msg)                # creo l'oggetto optparser a partire dalla classe OptionParser
     # creo le opzioni disponibili per la command line
     optparser.add_option('-w', '--write', action='store_true',
@@ -102,22 +105,22 @@ if __name__ == '__main__':                    # se viene esegiuto come script
 
     (options, lista_args) = optparser.parse_args()
 
-    qta_args = len(lista_args)                            # conto gli argomenti
-    if qta_args != 2:                                     # se gli argomenti non sono in numero corretto
-        raise ValueError(                                 # solleva un errore
+    qta_args = len(lista_args)                   # conto gli argomenti
+    if qta_args != 2:                            # se gli argomenti non sono in numero corretto
+        raise ValueError(                        # solleva un errore
             'Non è stato passato il numero corretto di argomenti allo scritp.' 
             'Lo script prevede 2 argomenti: il file di input e il file di output.')
 
-    if options.append and options.write:                  # se l'utente ha indicato entrambe le opzioni
-        raise ValueError(                                 # solleva un errore
+    if options.append and options.write:         # se l'utente ha indicato entrambe le opzioni
+        raise ValueError(                        # solleva un errore
             'Non puoi usare le opzioni "-w" e "-a" assieme.')
-    else:                                                 # altrimenti
-        if options.write:                                 # se è stato passato il parametro -w (o --write)
-            mode = 'w'                                    # imposta mode su 'w'
-        elif options.append:                              # se è stato passato il parametro -a(o --append)
-            mode = 'a'                                    # imposta mode su 'a'
-        else:                                             # se nessuna opzione è usata
-            mode = None                                   # imposta mode su None
+    else:                                        # altrimenti
+        if options.write:                        # se è stato passato il parametro -w (o --write)
+            mode = 'w'                           # imposta mode su 'w'
+        elif options.append:                     # se è stato passato il parametro -a(o --append)
+            mode = 'a'                           # imposta mode su 'a'
+        else:                                    # se nessuna opzione è usata
+            mode = None                          # imposta mode su None
         
-    res_dict = file_to_dict(lista_args[0])                # converte il file di input in un dizionario
-    dict_to_csv(lista_args[1], res_dict, mode)            # scrive il file CSV a partire da l dizionario
+    res_dict = file_to_dict(lista_args[0])       # converte il file di input in un dizionario
+    dict_to_csv(lista_args[1], res_dict, mode)   # scrive il file CSV a partire da l dizionario
