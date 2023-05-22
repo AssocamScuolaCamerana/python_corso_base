@@ -14,7 +14,7 @@ __pycache__/
 *.py[co]
 
 # backup files
-*~
+# *~
 
 # vs code
 *.code-workspace
@@ -23,4 +23,3 @@ settings.json
 # custom folders
 _tmp/
 _soluzioni/
-outputs/
