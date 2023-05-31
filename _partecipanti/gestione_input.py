@@ -1,9 +1,10 @@
 # By TORFIS
 
-def leggi_float(messaggio, minimo, massimo):
+def leggi_float(messaggio, minimo=None, massimo=None):
     while True:
+        valore = input(messaggio) or 0
         try:
-            valore = float(input(messaggio))
+            valore = float(valore)
             
             if minimo is not None and valore < minimo:
                 print(f"ERRORE: il valore minimo consentito è <{minimo}>")
@@ -15,7 +16,7 @@ def leggi_float(messaggio, minimo, massimo):
             return valore
         
         except ValueError:
-            risposta = input("ERRORE: inserisci un valore decimale valido, hai inserito <" + risposta + ">")
+            print("ERRORE: inserisci un valore decimale valido, hai inserito <" + valore + ">")
 
 def leggi_stringa(messaggio, lunghezza_minima, lunghezza_massima, caratteri_validi):
     while True:
