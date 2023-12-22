@@ -14727,7 +14727,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong><u>Diffuso</u></strong> sia nell’industria che nella ricerca (vedi <a href="https://www.tiobe.com/tiobe-index/">Indice TIOBE</a>, <a href="https://madnight.github.io/githut">Popolarità su Github</a>, <a href="https://insights.stackoverflow.com/trends">Popolarità su Stack Overflow</a>).</p>
+<p><strong><u>Diffuso</u></strong> sia nell’industria che nella ricerca (vedi <a href="https://www.tiobe.com/tiobe-index/">Indice TIOBE</a>, <a href="https://madnight.github.io/githut">Popolarità su Github</a>, <a href="https://insights.stackoverflow.com/trends?tags=java%2Cc%2Cc%2B%2B%2Cpython%2Cc%23%2Cvb.net%2Cjavascript%2Cassembly%2Cphp%2Cperl%2Cruby%2Cvb%2Cswift%2Cr%2Cobjective-c">Popolarità su Stack Overflow</a>).</p>
 
 </div>
 </div>
@@ -14877,6 +14877,35 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Linguaggi-compilati-e-linguaggi-interpretati">Linguaggi compilati e linguaggi interpretati<a class="anchor-link" href="#Linguaggi-compilati-e-linguaggi-interpretati">&#182;</a></h3><p>Immagina di avere una ricetta di cucina che vuoi dare a un amico.</p>
+<ol>
+<li><p><strong>Linguaggio Compilato:</strong></p>
+<ul>
+<li>Immagina di scrivere la tua ricetta in italiano, ma il tuo amico capisce solo l'inglese. Quindi, prima di dargli la ricetta, devi tradurla completamente in inglese. Questo processo di traduzione è simile alla <strong>compilazione</strong> in programmazione, dove il codice che scrivi (come C++ o Java) viene completamente convertito (compilato) in un linguaggio che il computer può capire (linguaggio macchina) prima che il programma venga eseguito.</li>
+<li><strong>Vantaggio:</strong> Una volta tradotta, la ricetta può essere data a qualsiasi amico che capisce l'inglese senza bisogno di ulteriori traduzioni.</li>
+<li><strong>Esempio in Programmazione:</strong> Scrivi il codice in C++, lo compili, e poi esegui l'eseguibile su qualsiasi computer senza doverlo ricompilare.</li>
+</ul>
+</li>
+<li><p><strong>Linguaggio Interpretato:</strong></p>
+<ul>
+<li>Ora invece, immagina di avere un interprete, una persona che traduce ciò che dici al tuo amico in tempo reale. Tu leggi la ricetta in italiano e l'interprete la traduce in inglese man mano che vai avanti. Questo è simile a come funziona un <strong>linguaggio interpretato</strong> in programmazione, dove il codice che scrivi (come Python o JavaScript) viene letto e eseguito linea per linea da un interprete.</li>
+<li><strong>Vantaggio:</strong> Puoi cambiare la ricetta (il codice) mentre parli, e l'interprete si adatterà alle modifiche istantaneamente.</li>
+<li><strong>Esempio in Programmazione:</strong> Scrivi il codice in Python e lo esegui direttamente. L'interprete Python legge ed esegue il tuo codice istantaneamente.</li>
+</ul>
+</li>
+</ol>
+<p>In entrambi i casi, l'obiettivo è lo stesso: far comprendere la tua ricetta (il tuo codice) al tuo amico (il computer), ma il modo in cui ciò viene fatto è diverso.</p>
+
+</div>
+</div>
+</div>
 </div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14924,19 +14953,58 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./imgs/bytecode.png" alt="bytecode.jpeg" /></p>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">dis</span>
+
+<span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span><span class="o">*</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="o">*</span><span class="n">b</span>
+
+<span class="n">dis</span><span class="o">.</span><span class="n">dis</span><span class="p">(</span><span class="n">foo</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>  3           0 RESUME                   0
+
+  4           2 LOAD_FAST                0 (a)
+              4 LOAD_FAST                0 (a)
+              6 BINARY_OP                5 (*)
+             10 LOAD_FAST                1 (b)
+             12 LOAD_FAST                1 (b)
+             14 BINARY_OP                5 (*)
+             18 BINARY_OP               10 (-)
+             22 RETURN_VALUE
+</pre>
+</div>
+</div>
 
 </div>
+
 </div>
-</div>
-</div></div></section><section >
+
+</div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15068,16 +15136,16 @@ div.jp-OutputPrompt {
   <td>Un pacchetto versatile per l'elaborazione di dati bidimensionali simili a fogli di calcolo; manipolazione completa dei dati.</td>
 </tr>
 <tr>
-  <td>Statsmodels</td>
-  <td>Un pacchetto popolare per le statistiche, come la regressione lineare, la correlazione, la modellazione bayesiana e l'analisi di sopravvivenza.</td>
-</tr>
-<tr>
   <td>Matplotlib</td>
   <td>Un paradigma orientato agli oggetti per disegnare istogrammi, grafici a dispersione, diagrammi a torta e altre figure comuni con una varietà di impostazioni personalizzabili.</td>
 </tr>
 <tr>
   <td>Seaborn</td>
   <td>Una libreria di visualizzazione facile da usare per disegnare grafici attraenti; API di alto livello basate su Matplotlib.</td>
+</tr>
+<tr>
+  <td>Statsmodels</td>
+  <td>Un pacchetto popolare per le statistiche, come la regressione lineare, la correlazione, la modellazione bayesiana e l'analisi di sopravvivenza.</td>
 </tr>
 </tbody>
 </table>
@@ -15101,20 +15169,20 @@ div.jp-OutputPrompt {
 </thead>
 <tbody>
 <tr>
+  <td>TensorFlow</td>
+  <td>Un framework con API di alto e basso livello; strumento di visualizzazione Tensor board; ottimo per costruire reti neurali complesse (by Google).</td>
+</tr>
+<tr>
+  <td>PyTorch</td>
+  <td>Un framework per la costruzione di reti neurali; stile di codice più intuitivi rispetto a TensorFlow; ottimo per la costruzione di reti neurali complesse (by Meta).</td>
+</tr>
+<tr>
   <td>Scikit-learn</td>
   <td>Un'ampia gamma di strumenti di pre-elaborazione per la costruzione di modelli ML; implementazione di algoritmi ML comuni.</td>
 </tr>
 <tr>
-  <td>TensorFlow</td>
-  <td>Un framework con API di alto e basso livello; strumento di visualizzazione Tensor board; ottimo per costruire reti neurali complesse.</td>
-</tr>
-<tr>
   <td>Keras</td>
   <td>API di alto livello per la costruzione di reti neurali; facile da usare; ottimo per la costruzione di modelli a basse prestazioni.</td>
-</tr>
-<tr>
-  <td>PyTorch</td>
-  <td>Un framework per la costruzione di reti neurali; stile di codice più intuitivi rispetto a TensorFlow; ottimo per la costruzione di reti neurali complesse.</td>
 </tr>
 <tr>
   <td>FastAI</td>
@@ -15274,7 +15342,7 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li><a href="https://github.com/odoo/odoo/blob/14eddf9fde5480d283245f4f3506bbe1aa3fa52d/addons/mail/models/mail_message.py#L206">Metodo su un campo calcolato</a>.</li>
+<li><a href="https://github.com/odoo/odoo/blob/14eddf9fde5480d283245f4f3506bbe1aa3fa52d/addons/mail/models/mail_message.py#L196">Metodo su un campo calcolato</a>.</li>
 <li><a href="https://github.com/odoo/odoo/blob/14eddf9fde5480d283245f4f3506bbe1aa3fa52d/addons/hr/models/hr_employee.py#L386">Metodo da eseguire all'archiviazione di un record</a>.</li>
 </ul>
 
