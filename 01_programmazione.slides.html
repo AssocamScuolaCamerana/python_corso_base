@@ -16225,7 +16225,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div><div class="fragment" >
+</div>
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16252,7 +16252,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</aside></div></section><section >
+</aside><div class="fragment" >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16263,35 +16263,19 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div><aside class="notes">
-
+</div>
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>I princìpi o caratteristiche fondamentali dell'OOP sono quattro. Si tratta di incapsulamento, astrazione, ereditarietà e polimorfismo. Ogni linguaggio orientato agli oggetti implementa questi principi a modo suo, ma l'essenza rimane la stessa da un linguaggio all'altro.</p>
+<p>I princìpi o caratteristiche fondamentali dell'OOP sono quattro. Si tratta di <strong>incapsulamento</strong>, <strong>astrazione</strong>, <strong>ereditarietà</strong> e <strong>polimorfismo</strong>. Ogni linguaggio orientato agli oggetti implementa questi principi a modo suo, ma l'essenza rimane la stessa da un linguaggio all'altro.</p>
 
 </div>
 </div>
 </div>
-</div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
-<li>L'<strong>incapsulamento</strong> garantisce il raggruppamento (=incapsulamento) dei dati e dei metodi che operano su tali dati in un'unica unità. Si riferisce anche alla capacità di un oggetto di nascondere la struttura interna delle sue proprietà e dei suoi metodi.</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div></div><div class="fragment" >
+</div></div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16299,13 +16283,72 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>L'<strong>astrazione</strong> dei dati significa che gli oggetti devono fornire una versione semplificata e astratta delle loro implementazioni. I dettagli del loro funzionamento interno di solito non sono necessari per l'utente, quindi non c'è bisogno di rappresentarli. L'astrazione significa anche che verranno presentate solo le caratteristiche più rilevanti dell'oggetto.</li>
+<li>L'<strong>incapsulamento</strong> consente di raggruppare i dati e i metodi che operano su tali dati, <em>incapsulandoli</em> all'interno di un &quot;contenitore&quot;. Si riferisce anche alla capacità di un oggetto di nascondere la struttura interna delle sue proprietà e dei suoi metodi e di esporre solo ciò che è necessario all'esterno. Ciò consente di proteggere certe parti interne dell'oggetto evitando che vengano usate in modo improprio.</li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
+</div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definizione di una classe con un attributo privato dei metodi per accedervi</span>
+<span class="k">class</span> <span class="nc">ContoBancario</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">saldo</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__saldo</span> <span class="o">=</span> <span class="n">saldo</span>  <span class="c1"># __saldo è un attributo &quot;privato&quot;</span>
+
+    <span class="c1"># Metodo per sommare un importo a __saldo</span>
+    <span class="k">def</span> <span class="nf">deposita</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">importo</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__saldo</span> <span class="o">+=</span> <span class="n">importo</span>
+
+    <span class="c1"># Metodo per leggere il valore di __saldo</span>
+    <span class="k">def</span> <span class="nf">saldo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__saldo</span>
+
+<span class="n">mioConto</span> <span class="o">=</span> <span class="n">ContoBancario</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Prima del deposito:&#39;</span><span class="p">,</span> <span class="n">mioConto</span><span class="o">.</span><span class="n">saldo</span><span class="p">())</span>
+
+<span class="n">mioConto</span><span class="o">.</span><span class="n">deposita</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Dopo il deposito:&#39;</span><span class="p">,</span> <span class="n">mioConto</span><span class="o">.</span><span class="n">saldo</span><span class="p">())</span>
+
+<span class="c1"># Prova anche queste istruzioni:</span>
+<span class="c1"># print(&#39;Prima del deposito:&#39;, mioConto.__saldo)  # errore: __saldo non è accessibile dall&#39;esterno</span>
+<span class="c1"># print(&#39;Prima del deposito:&#39;, mioConto._ContoBancario__saldo)  # accesso &quot;forzato&quot; a __saldo</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Prima del deposito: 1000
+Dopo il deposito: 1500
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16313,13 +16356,132 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>L'<strong>ereditarietà</strong> è un meccanismo per definire le relazioni genitore-figlio tra le classi. Spesso gli oggetti sono molto simili, quindi l'ereditarietà consente ai programmatori di riutilizzare la logica comune e allo stesso tempo di introdurre concetti unici nelle classi.</li>
+<li>L'<strong>astrazione</strong> si riferisce alla pratica di isolare l'implementazione complessa di una classe, mostrando solo le funzionalità essenziali all'utente. L'astrazione nasconde la complessità e mostra solo l'interfaccia necessaria.</li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
+</div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Automobile</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">avvia</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_controlla_batteria</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_avvia_motore</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Auto avviata&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_controlla_batteria</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Controllo della batteria&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_avvia_motore</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Avvio del motore&quot;</span><span class="p">)</span>
+
+<span class="n">miaAuto</span> <span class="o">=</span> <span class="n">Automobile</span><span class="p">()</span>
+<span class="n">miaAuto</span><span class="o">.</span><span class="n">avvia</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Controllo della batteria
+Avvio del motore
+Auto avviata
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></div></section><section >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>L'<strong>ereditarietà</strong> consente di definenire delle relazioni genitore-figlio tra le classi in modo che una nuova classe (figlia) possa ereditare proprietà e metodi da una classe esistente (genitore). Spesso gli oggetti sono molto simili, quindi l'ereditarietà consente ai programmatori di riutilizzare la logica comune e allo stesso tempo di introdurre concetti unici nelle classi.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Classe genitore</span>
+<span class="k">class</span> <span class="nc">Animale</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">mangia</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;L&#39;animale sta mangiando&quot;</span><span class="p">)</span>
+
+<span class="c1"># Classe figlia</span>
+<span class="k">class</span> <span class="nc">Cane</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">abbaia</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Il cane sta abbaiando&quot;</span><span class="p">)</span>
+
+<span class="c1"># Creaione di un oggetto della classe figlia</span>
+<span class="n">fido</span> <span class="o">=</span> <span class="n">Cane</span><span class="p">()</span>
+
+<span class="c1"># Invocazione dei metodi</span>
+<span class="n">fido</span><span class="o">.</span><span class="n">mangia</span><span class="p">()</span>  <span class="c1"># Ereditato da Animale</span>
+<span class="n">fido</span><span class="o">.</span><span class="n">abbaia</span><span class="p">()</span>  <span class="c1"># Proprio di Cane</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>L&#39;animale sta mangiando
+Il cane sta abbaiando
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16333,6 +16495,46 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
+</div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Classe genitore, con metodo &quot;astratto/virtuale&quot; (da implementare nelle classi figlie)</span>
+<span class="k">class</span> <span class="nc">Animale</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<span class="c1"># Classi figlie, che implementano il metodo &quot;astratto&quot;</span>
+<span class="k">class</span> <span class="nc">Cane</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bau&quot;</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Gatto</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Miao&quot;</span><span class="p">)</span>
+
+<span class="c1"># Funzione che accetta un oggetto di tipo Animale come parametro</span>
+<span class="k">def</span> <span class="nf">fai_parlare</span><span class="p">(</span><span class="n">animale</span><span class="p">):</span>
+    <span class="n">animale</span><span class="o">.</span><span class="n">emetti_suono</span><span class="p">()</span>
+
+<span class="c1"># Creazione di oggetti di tipo Cane e Gatto</span>
+<span class="n">fido</span> <span class="o">=</span> <span class="n">Cane</span><span class="p">()</span>
+<span class="n">felix</span> <span class="o">=</span> <span class="n">Gatto</span><span class="p">()</span>
+
+<span class="c1"># Invocazione della funzione fai_parlare() con oggetti di tipo Cane e Gatto</span>
+<span class="n">fai_parlare</span><span class="p">(</span><span class="n">fido</span><span class="p">)</span>
+<span class="n">fai_parlare</span><span class="p">(</span><span class="n">felix</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div></div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -16374,7 +16576,7 @@ div.jp-OutputPrompt {
 </tr>
 <tr>
   <td>polimorfismo</td>
-  <td>→ <em>compile time</em>: overload (<code>*args, **kwargs</code>)<br/>→ <em>run time</em>: override</td>
+  <td>→ <em>compile time</em>: overload (<code>*args, **kwargs</code>)<br/>→ <em>run time</em>: override / classi, proprietà o metodi astratti</td>
 </tr>
 </tbody>
 </table>
@@ -16426,7 +16628,6 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Nell'OOP, tutto può essere visto come un oggetto; una classe, ad esempio, è anche un oggetto. I programmi sono costituiti da diversi oggetti che interagiscono tra loro. Lo stato e il comportamento degli oggetti sono solitamente combinati, ma non è sempre così. A volte vediamo oggetti senza stato o metodi. Questo, ovviamente, dipende dallo scopo del programma e dalla natura dell'oggetto.</p>
-<p>Ad esempio, abbiamo una cosa chiamata &quot;interfaccia&quot;. Non un'interfaccia utente, ma una classe che serve solo a essere ereditata per garantire un'interfaccia alle sue classi discendenti. È una classe stateless (senza uno stato interno). Le strutture esistono in C++ per ragioni storiche. Ora, una struttura in C++ è anche una classe, ma una volta una struttura aveva solo proprietà e non aveva metodi: un tipo per memorizzare dati e nient'altro. Si tratta di casi speciali, talvolta utili.</p>
 
 </div>
 </div>
@@ -16467,7 +16668,8 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
+</div><aside class="notes">
+
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16479,7 +16681,8 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></div></section><section >
+</div>
+</aside></div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16569,6 +16772,83 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Esempio-3.-La-classe-Animale:-implementazione-in-Python">Esempio 3. La classe Animale: implementazione in Python<a class="anchor-link" href="#Esempio-3.-La-classe-Animale:-implementazione-in-Python">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Animale</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nome</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">nome</span> <span class="o">=</span> <span class="n">nome</span>
+
+    <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2"> fa un suono.&quot;</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Cane</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nome</span><span class="p">,</span> <span class="n">razza</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">nome</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">razza</span> <span class="o">=</span> <span class="n">razza</span>
+
+    <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2">, che è un </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">razza</span><span class="si">}</span><span class="s2">, abbaia.&quot;</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Gatto</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2"> fa le fusa.&quot;</span><span class="p">)</span>
+
+<span class="c1"># Creazione di istanze delle classi</span>
+<span class="n">animale_generale</span> <span class="o">=</span> <span class="n">Animale</span><span class="p">(</span><span class="s2">&quot;Animale Generico&quot;</span><span class="p">)</span>
+<span class="n">fido</span> <span class="o">=</span> <span class="n">Cane</span><span class="p">(</span><span class="s2">&quot;Fido&quot;</span><span class="p">,</span> <span class="s2">&quot;Labrador&quot;</span><span class="p">)</span>
+<span class="n">micio</span> <span class="o">=</span> <span class="n">Gatto</span><span class="p">(</span><span class="s2">&quot;Micio&quot;</span><span class="p">)</span>
+
+<span class="c1"># Uso dei metodi</span>
+<span class="n">animale_generale</span><span class="o">.</span><span class="n">emetti_suono</span><span class="p">()</span>
+<span class="n">fido</span><span class="o">.</span><span class="n">emetti_suono</span><span class="p">()</span>
+<span class="n">micio</span><span class="o">.</span><span class="n">emetti_suono</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Animale Generico fa un suono.
+Fido, che è un Labrador, abbaia.
+Micio fa le fusa.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></section><section >
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Nomenclatura-generica-e-specifica">Nomenclatura generica e specifica<a class="anchor-link" href="#Nomenclatura-generica-e-specifica">&#182;</a></h3>
 </div>
 </div>
@@ -16599,7 +16879,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
+</aside>
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16653,7 +16933,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div><div class="fragment" >
+</div>
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16682,7 +16962,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
+</div><div class="fragment" >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16770,7 +17050,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
+</aside>
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16788,7 +17068,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></div></section></section><section ><section >
+</div></section></section><section ><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16799,7 +17079,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section >
+</div><div class="fragment" >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16811,7 +17091,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section >
+</div></div></section><section >
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">

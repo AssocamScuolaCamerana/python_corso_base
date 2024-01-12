@@ -14681,7 +14681,7 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Estensioni-dei-file-di-Python">Estensioni dei file di Python<a class="anchor-link" href="#Estensioni-dei-file-di-Python">&#182;</a></h1><ul>
-<li><code>.py</code> file contentente un generico script in Python.</li>
+<li><code>.py</code> file contentente un generico script in Python (pronuncia &quot;pi-uai&quot; o &quot;pai&quot;).</li>
 <li><code>.pyw</code> script che avvia una GUI (usato su sistemi Windows).</li>
 <li><code>.pyc</code> script compilato in <a href="https://docs.python.org/3/glossary.html#term-bytecode">bytecode</a> per la <a href="https://docs.python.org/3/glossary.html#term-virtual-machine">Python Virtual Machine</a>. Questi file vengono generati automaticamente dall'interprete quando si importa un modulo, velocizzando così le importazioni future di quel modulo.</li>
 <li><code>.pyd</code> <em>Python Dynamic Module</em>, praticamente un &quot;modulo di estensione&quot; o &quot;libreria condivisa&quot; (<em>shared library</em>). Contiene una DLL Python ed è usato su sistemi Windows. Su sistemi Linux e macOS questi file hanno estensione <code>.so</code>. <a href="https://docs.python.org/3/faq/windows.html#is-a-pyd-file-the-same-as-a-dll">Approfondisci</a>.</li>
@@ -21548,6 +21548,10 @@ math.trunc = trunc(x, /)
   <td>Restituisce True se l'oggetto specificato è richiamabile, altrimenti False</td>
 </tr>
 <tr>
+  <td>hash()</td>
+  <td>Restituisce il valore hash di un oggetto specificato</td>
+</tr>
+<tr>
   <td>id()</td>
   <td>Restituisce l'id di un oggetto</td>
 </tr>
@@ -21619,11 +21623,11 @@ math.trunc = trunc(x, /)
 <tbody>
 <tr>
   <td>all()</td>
-  <td>Restituisce True se tutti gli elementi di un oggetto iterabile sono true</td>
+  <td>Restituisce <code>True</code> se tutti gli elementi di un oggetto iterabile sono <code>True</code></td>
 </tr>
 <tr>
   <td>any()</td>
-  <td>Restituisce True se qualsiasi elemento di un oggetto iterabile è vero</td>
+  <td>Restituisce <code>True</code> se almeno un'elemento di un oggetto iterabile è <code>True</code></td>
 </tr>
 <tr>
   <td>len()</td>
@@ -21631,7 +21635,7 @@ math.trunc = trunc(x, /)
 </tr>
 <tr>
   <td>max()</td>
-  <td>Restituisce l'elemento più grande di un iteratore</td>
+  <td>Restituisce l'elemento più grande di un iterabile</td>
 </tr>
 <tr>
   <td>min()</td>
@@ -21639,7 +21643,7 @@ math.trunc = trunc(x, /)
 </tr>
 <tr>
   <td>sum()</td>
-  <td>Somma gli elementi di un iteratore</td>
+  <td>Somma gli elementi di un iterabile</td>
 </tr>
 </tbody>
 </table>
@@ -21723,7 +21727,7 @@ math.trunc = trunc(x, /)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Conversione-di-dati-di-un-tipo-in-un-altro-tipo">Conversione di dati di un tipo in un altro tipo<a class="anchor-link" href="#Conversione-di-dati-di-un-tipo-in-un-altro-tipo">&#182;</a></h3><table>
+<h3 id="Codifica-e-decodifica-dei-dati">Codifica e decodifica dei dati<a class="anchor-link" href="#Codifica-e-decodifica-dei-dati">&#182;</a></h3><table>
 <thead>
 <tr>
   <th>FUNZIONE</th>
@@ -21748,16 +21752,12 @@ math.trunc = trunc(x, /)
   <td>Formatta un valore specificato</td>
 </tr>
 <tr>
-  <td>hash()</td>
-  <td>Restituisce il valore hash di un oggetto specificato</td>
-</tr>
-<tr>
   <td>hex()</td>
   <td>Converte un numero in un valore esadecimale</td>
 </tr>
 <tr>
   <td>oct()</td>
-  <td>Converte un numero in ottale</td>
+  <td>Converte un numero in un valore ottale</td>
 </tr>
 <tr>
   <td>ord()</td>
@@ -22067,7 +22067,7 @@ math.trunc = trunc(x, /)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Se vogliamo ottenere dei dati di input da un utenre, questi dovrà poter inserire un valore e questo valore dovrà essere reso disponibile all'interno dell'ambiente di esecuzione.</p>
+<p>Se vogliamo ottenere dei dati di input da un utente, questi dovrà poter inserire un valore e questo valore dovrà essere reso disponibile all'interno dell'ambiente di esecuzione.</p>
 
 </div>
 </div>
