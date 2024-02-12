@@ -1,17 +1,13 @@
 <!DOCTYPE html>
+
 <html>
-<head><meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-
+<head><meta charset="utf-8"/>
+<meta content="chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
 <title>01_programmazione slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
-
+<link href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css" rel="stylesheet"/>
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
 if( window.location.search.match( /print-pdf/gi ) ) {
@@ -21,7 +17,6 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 </script>
-
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -72,9 +67,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .ss { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Symbol */
 .highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
   </style>
-
-
-
 <style type="text/css">
 /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
@@ -14072,8 +14064,7 @@ div.jp-Cell-Placeholder-content-3 {
 }
 
 </style>
-
-    <style type="text/css">
+<style type="text/css">
 /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
 | Distributed under the terms of the Modified BSD License.
@@ -14484,7 +14475,6 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-icon-contrast-color3: var(--md-blue-600);
 }
 </style>
-
 <style type="text/css">
 a.anchor-link {
    display: none;
@@ -14507,15 +14497,10 @@ a.anchor-link {
   }
 }
 </style>
-
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 .reveal {
   font-size: 160%;
-}
-.reveal ::selection {
-    color: black!important;
-    background: white!important;
 }
 .reveal table {
   font-size: var(--jp-ui-font-size1);
@@ -14631,11 +14616,10 @@ div.jp-OutputPrompt {
   background: #727272 !important;
 }
 </style>
-
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"> </script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"> </script>
+<!-- MathJax configuration -->
+<script type="text/x-mathjax-config">
     init_mathjax = function() {
         if (window.MathJax) {
         // MathJax loaded
@@ -14665,216 +14649,197 @@ div.jp-OutputPrompt {
     }
     init_mathjax();
     </script>
-    <!-- End of mathjax configuration --><!-- Reveal Theme -->
-<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/theme/black.css" id="theme">
-
+<!-- End of mathjax configuration --><!-- Reveal Theme -->
+<link href="https://unpkg.com/reveal.js@4.0.2/dist/theme/black.css" id="theme" rel="stylesheet"/>
 </head>
-
 <body class="jp-Notebook" data-jp-theme-light="false" data-jp-theme-name="JupyterLab Dark">
-
 <div class="reveal">
-<div class="slides"><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="slides"><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Introduzione-alla-programmazione">Introduzione alla programmazione<a class="anchor-link" href="#Introduzione-alla-programmazione">&#182;</a></h1>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Introduzione-alla-programmazione">Introduzione alla programmazione<a class="anchor-link" href="#Introduzione-alla-programmazione">¶</a></h1>
 </div>
 </div>
 </div>
 </div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./imgs/programming/python_gears.png" alt="" /></p>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="" src="../imgs/programming/python_gears.png"/></p>
 <p><small><em>Il sofware sulla sinistra è l'IDE Spyder con una pagina di codice e i riquadri per il debug e output grafici</em></small></p>
 <p><small><em>Il meccanismo sulla destra è da una <a href="https://www.guidomocafico.com/work/movement/">foto di Guido Mocafico - Gérald Genta chronographe mono poussoir quantième perpétuel (W107B)</a></em></small></p>
-
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Che-cos'%C3%A8-la-programmazione?">Che cos'&#232; la programmazione?<a class="anchor-link" href="#Che-cos'%C3%A8-la-programmazione?">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Che-cos'%C3%A8-la-programmazione?">Che cos'è la programmazione?<a class="anchor-link" href="#Che-cos'%C3%A8-la-programmazione?">¶</a></h2>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>In poche parole, la programmazione informatica è un modo per far svolgere ai computer compiti diversi. È un processo che consiste nello scrivere una serie di istruzioni (note anche come <strong>codice</strong>) che una macchina possa comprendere e far sì che le esegua.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>L'obiettivo finale può essere quello di risolvere un'equazione matematica, automatizzare un compito noioso o creare una pagina web, un'app mobile o un intero gioco; insomma, creare quello che viene definito <strong><em>software</em></strong>.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La programmazione informatica richiede competenze tecniche e pensiero creativo. Alcuni la chiamano scienza, altri arte.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Per avere un quadro completo di cosa sia la programmazione informatica, dobbiamo evidenziare due punti della definizione appena data: &quot;<strong>far svolgere compiti al computer</strong>&quot; e &quot;<strong>scrivere una serie di istruzioni che una macchina possa comprendere</strong>&quot;. Parliamo innanzitutto delle <em>istruzioni</em>.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Per avere un quadro completo di cosa sia la programmazione informatica, dobbiamo evidenziare due punti della definizione appena data: "<strong>far svolgere compiti al computer</strong>" e "<strong>scrivere una serie di istruzioni che una macchina possa comprendere</strong>". Parliamo innanzitutto delle <em>istruzioni</em>.</p>
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Cosa-sono-i-linguaggi-di-programmazione?">Cosa sono i linguaggi di programmazione?<a class="anchor-link" href="#Cosa-sono-i-linguaggi-di-programmazione?">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Cosa-sono-i-linguaggi-di-programmazione?">Cosa sono i linguaggi di programmazione?<a class="anchor-link" href="#Cosa-sono-i-linguaggi-di-programmazione?">¶</a></h3>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Come si fa dunque a scrivere questo insieme di istruzioni per il computer?</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Pensa a un computer come a un amico alieno. Non capisce nessuna lingua se non la sua lingua madre e ha bisogno di descrizioni molto semplici e chiare di ogni azione che volete fargli compiere perché, essendo alieno sulla Terra, non sa nulla della nostra cultura. Quindi non puoi dirgli semplicemente &quot;chiama Mario Rossi&quot;. È necessario descrivere ogni singola azione che questo comando necessita per essere eseguito. In altre parole è necessario definire un <em><strong><a href="https://it.wikipedia.org/wiki/Algoritmo">algoritmo</a></strong></em>:</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Pensa a un computer come a un amico alieno. Non capisce nessuna lingua se non la sua lingua madre e ha bisogno di descrizioni molto semplici e chiare di ogni azione che volete fargli compiere perché, essendo alieno sulla Terra, non sa nulla della nostra cultura. Quindi non puoi dirgli semplicemente "chiama Mario Rossi". È necessario descrivere ogni singola azione che questo comando necessita per essere eseguito. In altre parole è necessario definire un <em><strong><a href="https://it.wikipedia.org/wiki/Algoritmo">algoritmo</a></strong></em>:</p>
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ol>
 <li>Prendi il telefono</li>
 <li>Premi il pulsante per accendere lo schermo</li>
 <li>Scorri il dito sul telefono per sbloccarlo</li>
 <li>Apri l'app Contatti</li>
-<li>Inserisci &quot;Mario Rossi&quot; nella ricerca</li>
+<li>Inserisci "Mario Rossi" nella ricerca</li>
 <li>Apri il contatto trovato</li>
 <li>Premi il pulsante verde per chiamare</li>
 </ol>
-
 </div>
 </div>
 </div>
-</div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>E cosa dire della sua lingua madre? Il nostro amico non capisce l'italiano o l'inglese, ma solo la sua lingua madre. Per comunicare con lui, il nostro amico ci ha dato un fantascientifico traduttore universale, che traduce qualunque lingua nella sua. Basta dunque parlare in italiano al traduttore perché questo lo traduca nella lingua aliena.</p>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Analogamente, i computer non capiscono le lingue naturali ma solo quello che viene definito <strong><a href="https://it.wikipedia.org/wiki/Linguaggio_macchina">linguaggio macchina</a></strong>. Per comunicare con i computer abbiamo a disposizione i linguaggi di programmazione, i quali si occcupano proprio di tradurre quello che abbiamo in mente nel codice delle macchine. Dobbiamo solo scegliere con quale lingua, o in in questo caso &quot;linguaggio&quot;, inviare le istruzioni al &quot;traduttore&quot;. Questo traduttore, detto <strong><a href="https://it.wikipedia.org/wiki/Compilatore">compilatore</a></strong>, si occuperà poi di convertire quello che abbiamo scritto, detto <strong><a href="https://it.wikipedia.org/wiki/Codice_sorgente">codice sorgente</a></strong>, in linguaggio macchina. Questo processo viene detto &quot;compilazione del codice sorgente&quot;.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Analogamente, i computer non capiscono le lingue naturali ma solo quello che viene definito <strong><a href="https://it.wikipedia.org/wiki/Linguaggio_macchina">linguaggio macchina</a></strong>. Per comunicare con i computer abbiamo a disposizione i linguaggi di programmazione, i quali si occcupano proprio di tradurre quello che abbiamo in mente nel codice delle macchine. Dobbiamo solo scegliere con quale lingua, o in in questo caso "linguaggio", inviare le istruzioni al "traduttore". Questo traduttore, detto <strong><a href="https://it.wikipedia.org/wiki/Compilatore">compilatore</a></strong>, si occuperà poi di convertire quello che abbiamo scritto, detto <strong><a href="https://it.wikipedia.org/wiki/Codice_sorgente">codice sorgente</a></strong>, in linguaggio macchina. Questo processo viene detto "compilazione del codice sorgente".</p>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Ora, quale linguaggio usare per comunicare con il computer è tutto un'altro paio di maniche. Avrai sicuramente sentito parlare di comuni linguaggi come C, Python o Java; tuttavia esistono ad oggi più di mille linguaggi di programmazione. Quelli vecchi continuano a evolversi e ne compaiono di nuovi. Ogni linguaggio informatico ha i suoi obiettivi e i suoi meriti, e alcuni linguaggi sono più adatti per applicazioni e compiti specifici. Alcuni linguaggi sono più ostici, altri meno. Alcuni sono semplici e popolari, altri sono sofisticati e di nicchia. Una cosa importante da ricordare è che, proprio come l'italiano, l'inglese o qualsiasi altra lingua, i linguaggi di programmazione hanno parti, costruzioni e concetti comuni a tutti. Quindi, imparare un altro linguaggio informatico sarà difficile (o facile) come imparare una lingua straniera. Se capisci la frase &quot;la mela è sul tavolo&quot; in italiano non avrai molti problemi a concettualizzare il significato di &quot;the apple is on the table&quot; in inglese.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Ora, quale linguaggio usare per comunicare con il computer è tutto un'altro paio di maniche. Avrai sicuramente sentito parlare di comuni linguaggi come C, Python o Java; tuttavia esistono ad oggi più di mille linguaggi di programmazione. Quelli vecchi continuano a evolversi e ne compaiono di nuovi. Ogni linguaggio informatico ha i suoi obiettivi e i suoi meriti, e alcuni linguaggi sono più adatti per applicazioni e compiti specifici. Alcuni linguaggi sono più ostici, altri meno. Alcuni sono semplici e popolari, altri sono sofisticati e di nicchia. Una cosa importante da ricordare è che, proprio come l'italiano, l'inglese o qualsiasi altra lingua, i linguaggi di programmazione hanno parti, costruzioni e concetti comuni a tutti. Quindi, imparare un altro linguaggio informatico sarà difficile (o facile) come imparare una lingua straniera. Se capisci la frase "la mela è sul tavolo" in italiano non avrai molti problemi a concettualizzare il significato di "the apple is on the table" in inglese.</p>
 </div>
 </div>
 </div>
 </div>
 </aside><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Proprio come per le lingue naturali, il linguaggi di programmazione possono avere sintassi e morfologia simili, in quanto chi crea un linguaggio molto spesso tende ad utilizzare soluzioni già inventate precedentemente e dunque possiamo individuare &quot;famiglie&quot; di linguaggi, con relazioni di parentela anche molto strette. Quando si descrive un linguaggio di programmazione, è tipico elencare gli altri linguaggi da cui &quot;deriva&quot;, o che hanno avuto influenza sulla sua creazione.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Proprio come per le lingue naturali, il linguaggi di programmazione possono avere sintassi e morfologia simili, in quanto chi crea un linguaggio molto spesso tende ad utilizzare soluzioni già inventate precedentemente e dunque possiamo individuare "famiglie" di linguaggi, con relazioni di parentela anche molto strette. Quando si descrive un linguaggio di programmazione, è tipico elencare gli altri linguaggi da cui "deriva", o che hanno avuto influenza sulla sua creazione.</p>
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Di seguito sono riportati alcuni indici che classificano i linguaggi di programmazione per diffusione e popolarità. Questi elenchi sono in continua e rapida evoluzione, quindi ti consiglio di visitare direttamente i siti.</p>
 <ul>
 <li><a href="https://www.tiobe.com/tiobe-index/">Indice TIOBE</a></li>
@@ -14882,403 +14847,370 @@ div.jp-OutputPrompt {
 <li><a href="https://madnight.github.io/githut">Popolarità su Github</a></li>
 <li><a href="https://insights.stackoverflow.com/trends">Popolarità su Stack Overflow</a></li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Come-scegliere-un-linguaggio?">Come scegliere un linguaggio?<a class="anchor-link" href="#Come-scegliere-un-linguaggio?">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Come-scegliere-un-linguaggio?">Come scegliere un linguaggio?<a class="anchor-link" href="#Come-scegliere-un-linguaggio?">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Quando si sceglie un linguaggio, bisogna innanzitutto chiedersi che cosa si vuole far fare al computer. E questo ci porta alla parte della domanda &quot;<strong>far svolgere compiti al computer</strong>&quot;. Qual'è il motivo per cui vuoi imparare a programmare? Vuoi diventare uno sviluppatore di giochi? Vuoi creare applicazioni per iPhone? Vuoi creare siti web? O forse ti serve la programmazione per automatizzare il lavoro di tutti i giorni?</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Quando si sceglie un linguaggio, bisogna innanzitutto chiedersi che cosa si vuole far fare al computer. E questo ci porta alla parte della domanda "<strong>far svolgere compiti al computer</strong>". Qual'è il motivo per cui vuoi imparare a programmare? Vuoi diventare uno sviluppatore di giochi? Vuoi creare applicazioni per iPhone? Vuoi creare siti web? O forse ti serve la programmazione per automatizzare il lavoro di tutti i giorni?</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Ogni linguaggio si presta bene solo a certi campi di applicazione e meno ad altri.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Il settore dello sviluppo web per esempio viene distinto in due tipi principali di programmazione: quella <em>front-end</em> e quella <em>back-end</em>. Facendo il paragone con un negozio, il front-end è il design e l'aspetto estetico del negozio (vetrine, scaffali ecc.) e determina principalmente l'esperienza dei clienti. Il back-end è invece paragonabile al retrobottega (magazzino, uffici amministrativi ecc.) e determina principalmente l'eperienza del personale addetto al negozio. Dunque il front-end di un sito web è la parte che gli utenti possono vedere. Caratteri, colori, cursori, pannelli e menu sono creati con una combinazione di <a href="https://it.wikipedia.org/wiki/HTML">HTML</a>, <a href="https://it.wikipedia.org/wiki/CSS">CSS</a> e <a href="https://it.wikipedia.org/wiki/JavaScript">JavaScript</a>. Il back-end comprende invece un server, software applicativi e database. In questo caso si possono usare molti linguaggi diversi, ad esempio <a href="https://it.wikipedia.org/wiki/PHP">PHP</a>, <a href="https://it.wikipedia.org/wiki/Python">Python</a>, <a href="https://it.wikipedia.org/wiki/Java_(linguaggio_di_programmazione)">Java</a> ecc.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Quindi, non si tratta di scegliere un linguaggio. Si tratta piuttosto di scegliere un settore.</p>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Se vuoi creare applicazioni Android, c'è <a href="https://it.wikipedia.org/wiki/Kotlin_(linguaggio_di_programmazione)">Kotlin</a>; per le applicazioni iOS c'è <a href="https://it.wikipedia.org/wiki/Swift_(linguaggio_di_programmazione)">Swift</a> e se vuoi sviluppare giochi, puoi andare sul <a href="https://it.wikipedia.org/wiki/C_(linguaggio)">C</a> o <a href="https://it.wikipedia.org/wiki/C%2B%2B">C++</a>.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>E se poi la tua risposta alla domanda &quot;perché&quot; è &quot;non so... per fare un sacco di soldi?&quot;, ti consiglio di prendere in considerazione i linguaggi di programmazione più popolari e richiesti dal mercato del lavoro, e iniziare da lì. <a href="https://it.wikipedia.org/wiki/Python">Python</a> è uno di questi.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>E se poi la tua risposta alla domanda "perché" è "non so... per fare un sacco di soldi?", ti consiglio di prendere in considerazione i linguaggi di programmazione più popolari e richiesti dal mercato del lavoro, e iniziare da lì. <a href="https://it.wikipedia.org/wiki/Python">Python</a> è uno di questi.</p>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Infine considera che, come per le lingue naturali, quando parliamo due lingue molto simili tra loro (es. italiano e spagnolo), è più facile commettere errori quando passiamo da una all'altra per via dei cosiddetti &quot;<a href="https://it.wikipedia.org/wiki/Falso_amico">falsi amici</a>&quot;. Anche in programmazione ci sono! Linguaggi diversi potrebbero avere sintassi simili o oggetti con lo stesso nome ma funzionamenti diversi. Quindi potrebbe essere vantaggioso studiare due linguaggi di programmazione con sintassi anche molto diverse. Di sicuro vi apre la mente!</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Infine considera che, come per le lingue naturali, quando parliamo due lingue molto simili tra loro (es. italiano e spagnolo), è più facile commettere errori quando passiamo da una all'altra per via dei cosiddetti "<a href="https://it.wikipedia.org/wiki/Falso_amico">falsi amici</a>". Anche in programmazione ci sono! Linguaggi diversi potrebbero avere sintassi simili o oggetti con lo stesso nome ma funzionamenti diversi. Quindi potrebbe essere vantaggioso studiare due linguaggi di programmazione con sintassi anche molto diverse. Di sicuro vi apre la mente!</p>
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Cosa-devo-aspettarmi-iniziando-a-programmare?">Cosa devo aspettarmi iniziando a programmare?<a class="anchor-link" href="#Cosa-devo-aspettarmi-iniziando-a-programmare?">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Cosa-devo-aspettarmi-iniziando-a-programmare?">Cosa devo aspettarmi iniziando a programmare?<a class="anchor-link" href="#Cosa-devo-aspettarmi-iniziando-a-programmare?">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Molte cose ti appariranno come noiose routine e, quando non lo sono, sarà come sbattere la testa contro un muro di mattoni in mezzo al deserto. Eppure molte persone trovano grande gioia e soddisfazione in questo lavoro. La programmazione non riguarda solo i linguaggi, la sintassi e i compilatori, ma è l'intero processo di pensiero logico e creativo che la rende così gratificante. Imparerete che non c'è mai la soluzione &quot;migliore&quot; al problema. Si potrà sempre rendere le cose più veloci, migliori e più grandi.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Molte cose ti appariranno come noiose routine e, quando non lo sono, sarà come sbattere la testa contro un muro di mattoni in mezzo al deserto. Eppure molte persone trovano grande gioia e soddisfazione in questo lavoro. La programmazione non riguarda solo i linguaggi, la sintassi e i compilatori, ma è l'intero processo di pensiero logico e creativo che la rende così gratificante. Imparerete che non c'è mai la soluzione "migliore" al problema. Si potrà sempre rendere le cose più veloci, migliori e più grandi.</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Inoltre dovreste abituarvi a considerare il vostro ambiente di sviluppo come un laboratorio. L'informatica, oltre che un'arte è anche una scienza e la scienza richiede un ambiente adatto per sperimentare e &quot;capire come funzionano le cose&quot;.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Inoltre dovreste abituarvi a considerare il vostro ambiente di sviluppo come un laboratorio. L'informatica, oltre che un'arte è anche una scienza e la scienza richiede un ambiente adatto per sperimentare e "capire come funzionano le cose".</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Programmare è anche fare filosofia: insegna a pensare in modo diverso. Ci insegna a ragionare sul come funzionano le cose e perché funzionano in questo o quel modo.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La programmazione insegna inoltre la pazienza. Il processo di scrittura del codice è paragonabile all'arte di risolvere i puzzle. A volte però, quando i pezzi non combaciano, può diventare estremamente stressante e fastidioso. Molte persone si sentono frustrate e rinunciano a imparare quando il loro codice non funziona per la prima volta; ma la verità è che si tratta di un processo normale.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Anche programmatori con anni di esperienza hanno ancora momenti in cui il loro codice non funziona e non hanno idea del perché; ma la pazienza e la perseveranza sono le caratteristiche chiave che li hanno portati al punto in cui sono ora.</p>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./imgs/novice_vs_experienced.jpg" alt="novice_vs_experienced.jpg" /></p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="novice_vs_experienced.jpg" src="../imgs/novice_vs_experienced.jpg"/></p>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Concludo sottolineando quindi che la programmazione è un'abilità come qualunque altra: è necessario dedicare tempo e impegno per vedere i risultati. Probabilmente non sarà facile, ma senza dubbio vale la pena provarci! Buona fortuna!</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Riassumendo">Riassumendo<a class="anchor-link" href="#Riassumendo">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Riassumendo">Riassumendo<a class="anchor-link" href="#Riassumendo">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>I linguaggi di programmazione sono come delle cassette degli attrezzi contenenti tutti gli strumenti che ci servono per lavorare.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Immaginiamo di essere un artigiano carpentiere che deve svolgere un lavoro presso un cliente. Alla mattina, prima di uscire dal laboratorio, in base al lavoro che dovremo eseguire sceglieremo di portarci dietro una cassetta che conterrà gli strumenti che ci servono per svolgere quel lavoro piuttosto che un'altra che contiene strumenti non adatti. Se poi è un grosso lavoro allora caricheremo sul furgone più cassette e attrezzatura, in modo da soddisfare tutte le necessità pratiche.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Il linguaggio che andremo ad imparare, Python, è già un bel furgone carico di molti attrezzi utili, quindi è un'ottima scelta per iniziare.</p>
-
 </div>
 </div>
 </div>
-</div></div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Perch%C3%A9-programmare?">Perch&#233; programmare?<a class="anchor-link" href="#Perch%C3%A9-programmare?">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Perch%C3%A9-programmare?">Perché programmare?<a class="anchor-link" href="#Perch%C3%A9-programmare?">¶</a></h2>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Se stai leggendo questo file e sei arrivato fino qua, probabilmente non c'é bisogno che te lo dica io; però ti posso consigliare la visione di questo illuminante talk di Dylan Beattie:</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><a href="https://www.youtube.com/watch?v=6avJHaC3C2U">The Art of Code – NDC Conferences 2020, London</a></p>
-
 </div>
 </div>
 </div>
-</div></div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="I-paradigmi-di-programmazione">I paradigmi di programmazione<a class="anchor-link" href="#I-paradigmi-di-programmazione">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="I-paradigmi-di-programmazione">I paradigmi di programmazione<a class="anchor-link" href="#I-paradigmi-di-programmazione">¶</a></h2>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Il concetto di paradigma è strettamente correlato al concetto di <em><strong>implementazione</strong></em> delle soluzioni, ovvero il modo in cui, a partire dalla fase progettuale si arriva alla definizione e realizzazione degli algoritmi veri e propri.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Diversi problemi di programmazione possono essere risolti in molteplici modi: potresti aver bisogno di scrivere una semplice sequenza di istruzioni, una funzione specifica per poi usarla molte volte oppure una classe separata con i propri metodi, e così via. Tutte queste varianti si combinano in diversi approcci di programmazione, chiamati anche paradigmi.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Attenzione però! I &quot;paradigmi&quot; non sono da considerarsi come famiglie di linguaggi, né tantomeno come caratteristiche intrinseche di un certo linguaggio. Essi sono piuttosto delle categorie analitiche che descrivono aspetti logici, sintattici o pragmatici degli <strong><a href="https://it.wikipedia.org/wiki/Algoritmo">algoritmi</a></strong> che creiamo, del codice che scriviamo, delle soluzioni che implementiamo.</p>
-<p>È importante sottolineare che un linguaggio non è necessariamente &quot;disegnato&quot; sulla base di uno o più paradigmi, ma sono i paradigmi ad essere stati &quot;inventati&quot; per descrivere le implementazioni che i vari linguaggi esistenti consentono. In altre parle, i paradigmi di programmazione sono un modo per classificare i linguaggi di programmazione in base alla loro &quot;vocazione&quot;. Ciascun linguaggio possiede caratteristiche e funzionalità che lo rendono più adatto a a certi utilizzi piuttosto che ad altri, ovvero più adatto ad implementtare una soluzione seguendo questi o quei paradigmmi.</p>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Attenzione però! I "paradigmi" non sono da considerarsi come famiglie di linguaggi, né tantomeno come caratteristiche intrinseche di un certo linguaggio. Essi sono piuttosto delle categorie analitiche che descrivono aspetti logici, sintattici o pragmatici degli <strong><a href="https://it.wikipedia.org/wiki/Algoritmo">algoritmi</a></strong> che creiamo, del codice che scriviamo, delle soluzioni che implementiamo.</p>
+<p>È importante sottolineare che un linguaggio non è necessariamente "disegnato" sulla base di uno o più paradigmi, ma sono i paradigmi ad essere stati "inventati" per descrivere le implementazioni che i vari linguaggi esistenti consentono. In altre parle, i paradigmi di programmazione sono un modo per classificare i linguaggi di programmazione in base alla loro "vocazione". Ciascun linguaggio possiede caratteristiche e funzionalità che lo rendono più adatto a a certi utilizzi piuttosto che ad altri, ovvero più adatto ad implementtare una soluzione seguendo questi o quei paradigmmi.</p>
 <p>Quindi, più che dire che un certo linguaggio appartiene a una certo paradigma, bisognerebbe dire che un certo linguaggio permette di implementare le soluzioni ai nostri problemi in modi che appartengono a uno o più paradigmi. O ancora: non è il paradigma che fa il linguaggio, ma è il linguaggio che permette di esprimere (implementare) un certo paradigma.</p>
 <p>Infine è importante sottolineare e ribadire che:</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>I paradigmi di programmazione non si escludono a vicenda, nel senso che si possono usare contemporaneamente tecniche ispirate a paradigmi diversi senza alcun problema.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>Qualsiasi problema risolvibile con un certo paradigma potrebbe essere risolto con altri altri; tuttavia, alcuni tipi di problemi si prestano più naturalmente ad essere risolti con paradigmi specifici.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>In pratica ci accorgeremo dunque che quasi tutti i linguaggi (almeno quelli più moderni) sono in realtà <em><strong><a href="https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages">multiparadigma</a></strong></em>. Ovvero permettono di ottenere le risposte ai nostri problemi in più modi, implementando strategie che possiamo ricondurre a un certo paradigma piuttosto che a un altro.</p>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Vediamo dunque alcuni aspetti presi in considerazione quando si cerca di classificare il modo in cui le soluzioni ai nostri problemi possono essere implementate.</p>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>modo in cui vengono strutturati i dati;</li>
 <li>modo in cui vengono processati i dati;</li>
@@ -15289,45 +15221,41 @@ div.jp-OutputPrompt {
 <li>stile della sintassi e della grammatica;</li>
 <li>... ecc.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>A seconda degli aspetti che vengono presi in considerazione, gli studiosi hanno classificato gli algoritmi – non i linguaggi! – in diverse categorie (di solito dicotomiche, ma non necessariamente):</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <blockquote>
 <p><em>NOTA: non intende esserci corrispondenza tra le voci del precedente elenco e quelle che seguono.</em></p>
 </blockquote>
-
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>dichiarativo Vs imperativo</li>
 <li>strutturato Vs non strutturato</li>
@@ -15338,857 +15266,785 @@ div.jp-OutputPrompt {
 <li>tipizzato staticamente Vs tipizzato dinamicamente</li>
 <li>... <a href="https://en.wikipedia.org/wiki/Programming_paradigm">ecc.</a></li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>È inoltre importante sottolineare che <em>a livelli di astrazione diversi è possibile ricondurre uno stesso algoritmo a paradigmi diversi</em>.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Ripeto, tutto ciò è pura filosofia. E sappiamo bene che in filosofia non esiste mai un solo modo di vedere le cose, una sola teoria. Si iniziò a discutere con fervore sui paradigmi già all'indomani della creazione delle prime <a href="https://it.wikipedia.org/wiki/Macchina_analitica">macchine analitiche</a>: <em>dati</em> e <em>istruzioni</em> sono la stessa cosa? Certo che sì! Ovviamente no!</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Ci sono dunque molte teorie discordanti e modi diversi di analizzare e considerare gli aspetti sopra citati e non tutti gli studiosi concordano su queste classificazioni.</p>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Tuttavia nel corso della storia si è consolidata una classificazione che analizza il <em>modo in cui la macchina viene istruita</em> e in particolare lo <em>scopo delle istruzioni</em> che diamo al computer. L'analisi di questi aspetti ha portato al binomio tra <em>paradigma</em> <em><strong>dichiarativo</strong></em> e <em><strong>imperativo</strong></em>.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Di seguito analizzeremo questi due paradigmi e le loro sotto-tipologie.</p>
-
 </div>
 </div>
 </div>
-</div></div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Imperativo-vs-dichiarativo">Imperativo vs dichiarativo<a class="anchor-link" href="#Imperativo-vs-dichiarativo">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Imperativo-vs-dichiarativo">Imperativo vs dichiarativo<a class="anchor-link" href="#Imperativo-vs-dichiarativo">¶</a></h2>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>È tutta questione di <a href="https://it.wikipedia.org/wiki/Astrazione_(informatica)">astrazione</a>, <a href="https://it.wikipedia.org/wiki/Teleologia">teleologia</a> (il fine delle cose) ed <a href="https://it.wikipedia.org/wiki/Epistemologia">epistemologia</a> (il modo di ottenere la conoscenza).</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>A un basso livello di astrazione dobbiamo <em>istruire</em> la macchina e soluzione deve essere indotta:</p>
 <ul>
 <li>Come si fa? → fornire istruzioni → ordinare → persorso da seguirre → paradigma imperativo.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>A un più alto livello di astrazione possiamo <em>informare</em> la macchina e la soluzione può essere dedotta:</p>
 <ul>
 <li>Cosa si fa? → fornire informazioni → descrivere → problema + risultato atteso → paradigma dichiarativo.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Paradigma-imperativo">Paradigma imperativo<a class="anchor-link" href="#Paradigma-imperativo">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Paradigma-imperativo">Paradigma imperativo<a class="anchor-link" href="#Paradigma-imperativo">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Il paradigma imperativo è uno dei più antichi paradigmi di programmazione in quanto strettamente legato all'architettura elettronica delle macchine. Un programma imperativo è paragnabile agli ordini espressi al <a href="https://it.wikipedia.org/wiki/Imperativo">modo imperativo nei linguaggi naturali</a>.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Si tratta di una sequenza di istruzioni che il processore deve eseguire passo dopo passo. Il fulcro di questo paradigma è il <em><strong>modo in cui raggiungere un obiettivo</strong></em>.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Un puro paradigma imperativo prevede che le istruzioni siano eseguite passo-passo, in sequenza, fino al raggiungimento del risultato, il quale sarà poi memorizzato e/o visualizzato.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Ad esempio, volessimo visualizzare sullo schermo la frase &quot;<code>Ciao, &lt;nome utente&gt;!</code>&quot;. *<strong>Come</strong>* dovrebbe fare il programma? Probabilmente attraverso i seguenti passaggi:</p>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Ad esempio, volessimo visualizzare sullo schermo la frase "<code>Ciao, &lt;nome utente&gt;!</code>". *<strong>Come</strong>* dovrebbe fare il programma? Probabilmente attraverso i seguenti passaggi:</p>
 <ol>
 <li>chiedere il nome utente;</li>
 <li>leggere e ricordare il nome utente;</li>
-<li>combinare la stringa di testo &quot;<code>Ciao,</code>&quot; con il nome dell'utente, il tutto seguito da &quot;<code>!</code>&quot;;</li>
+<li>combinare la stringa di testo "<code>Ciao,</code>" con il nome dell'utente, il tutto seguito da "<code>!</code>";</li>
 <li>visualizzare il risultato.</li>
 </ol>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>A un basso livello di astrazione, tutto è imperativo in programmazione. Se però aumentiamo l'astrazione, la programmazione imperativa potrebbe suddividersi in ulteriori categorie. Le tre più famose sono:</p>
 <ul>
 <li>il paradigma di programmazione procedurale,</li>
 <li>la programmazione orientata agli oggetti,</li>
 <li>l'approccio all'elaborazione parallela.</li>
 </ul>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Vediamo di illustrarle più in dettaglio.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <blockquote>
 <p>APPROFONDIMENTO:
 <a href="https://github.com/smythp/python-201">Esempi d'uso di Python in modo imperativo, procedurale e ad oggetti</a></p>
 </blockquote>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Paradigma-di-programmazione-procedurale">Paradigma di programmazione procedurale<a class="anchor-link" href="#Paradigma-di-programmazione-procedurale">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Paradigma-di-programmazione-procedurale">Paradigma di programmazione procedurale<a class="anchor-link" href="#Paradigma-di-programmazione-procedurale">¶</a></h4>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Come per qualuque algoritmo imperativo, in un codice procedurale abbiamo sempre degli elenchi di istruzioni che indicano al computer cosa fare, passo dopo passo. La differenza è che il codice, invece di essere scritto in modo lineare, viene raggruppato per aree funzionali. Ciascun &quot;gruppo&quot; deve avere poi un proprio identificativo e un proprio modo di essere &quot;chiamato&quot;, ovvero eseguito.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Come per qualuque algoritmo imperativo, in un codice procedurale abbiamo sempre degli elenchi di istruzioni che indicano al computer cosa fare, passo dopo passo. La differenza è che il codice, invece di essere scritto in modo lineare, viene raggruppato per aree funzionali. Ciascun "gruppo" deve avere poi un proprio identificativo e un proprio modo di essere "chiamato", ovvero eseguito.</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Questi gruppi funzionali di codice sono dunque una sorta di sotto-programmi, chiamati &quot;subroutine&quot; o appunto &quot;procedure&quot;, e possiamo farle corrispondere grosso modo alle funzioni. L'azione di eseguire una procedura viene definita come <em><strong>chiamata di procedura</strong></em>. Le procedure sono utili dunque quando è necessario eseguire più volte una porzione di codice che svolge sempre la medesima funzionalità. Da qui l'espressione <em>routine</em> o <em>subroutine</em>.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Questi gruppi funzionali di codice sono dunque una sorta di sotto-programmi, chiamati "subroutine" o appunto "procedure", e possiamo farle corrispondere grosso modo alle funzioni. L'azione di eseguire una procedura viene definita come <em><strong>chiamata di procedura</strong></em>. Le procedure sono utili dunque quando è necessario eseguire più volte una porzione di codice che svolge sempre la medesima funzionalità. Da qui l'espressione <em>routine</em> o <em>subroutine</em>.</p>
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>La differenza tra <em>procedura</em> e <em>funzione</em> è, ancora una volta, soprattutto filosofica. La procedura può modificare sia i dati che processa sia, di coseguenza, lo stato di esecuzione dell'intero programma. La funzione è (come vedremo nel paradigma funzionale) invece più &quot;neutrale&quot; e si limita a fornire un risultato sulla base dei dati forniti, ma senza alterarli.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>La differenza tra <em>procedura</em> e <em>funzione</em> è, ancora una volta, soprattutto filosofica. La procedura può modificare sia i dati che processa sia, di coseguenza, lo stato di esecuzione dell'intero programma. La funzione è (come vedremo nel paradigma funzionale) invece più "neutrale" e si limita a fornire un risultato sulla base dei dati forniti, ma senza alterarli.</p>
 </div>
 </div>
 </div>
-</div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Il vantaggio delle procedure è che facilitano l'organizzazione e consentono il riuso del codice:</p>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>&quot;Organizzazione&quot; perché esso viene suddiviso in diverse parti funzionali formalmente indipendenti tra loro, facilitando la comprensione della struttura e la manutenzione del codice.</li>
+<li>"Organizzazione" perché esso viene suddiviso in diverse parti funzionali formalmente indipendenti tra loro, facilitando la comprensione della struttura e la manutenzione del codice.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>&quot;Riuso&quot; perché le istruzioni contenute in una procedura possono essere riutilizzate più volte senza necessità di duplicarle, riducendo così i tempi di scrittura, di manutenzione e risparmiando anche memoria nell'esecuzione.</li>
+<li>"Riuso" perché le istruzioni contenute in una procedura possono essere riutilizzate più volte senza necessità di duplicarle, riducendo così i tempi di scrittura, di manutenzione e risparmiando anche memoria nell'esecuzione.</li>
 </ul>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>La programmazione procedurale è adatta alla programmazione di uso generale per completare compiti comuni. Può trattarsi di un piccolo problema di calcolo, come trasformare un numero nel suo fattoriale, la modifica a una serie di immagini, o la visualizzazione di alcune informazioni/frasi come &quot;Hello, world!&quot;.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>La programmazione procedurale è adatta alla programmazione di uso generale per completare compiti comuni. Può trattarsi di un piccolo problema di calcolo, come trasformare un numero nel suo fattoriale, la modifica a una serie di immagini, o la visualizzazione di alcune informazioni/frasi come "Hello, world!".</p>
 </div>
 </div>
 </div>
 </div>
 </aside><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Un algoritmo scritto puramente in questo paradigma è generalmente molto semplice da implementare, ma è relatvamente più lento lento di altre soluzioni e non può risolvere un problema troppo complesso.</p>
 <p>I linguaggi di programmazione che facilitano le implementazioni con il paradigma della programmazione procedurale sono C, Java, C++, ColdFusion e Pascal.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Programmazione-orientata-agli-oggetti">Programmazione orientata agli oggetti<a class="anchor-link" href="#Programmazione-orientata-agli-oggetti">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Programmazione-orientata-agli-oggetti">Programmazione orientata agli oggetti<a class="anchor-link" href="#Programmazione-orientata-agli-oggetti">¶</a></h4>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La programmazione orientata agli oggetti o OOP (dall'inglese <em>Object-Oriented Programming</em>) è un paradigma in cui il programma è scritto come una collezione di classi. Ogni classe ha istanze chiamate oggetti.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Il termine &quot;oggetto&quot; deriva dal paragone con gli oggetti materiali del mondo reale, i quali possono venire progettati in astratto e poi realizzati in molteplici copie, forme e versioni. Inoltre gli oggetti hanno delle proprietà, delle funzioni e delle modalità specifiche con cui possiamo interagire con loro.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Il termine "oggetto" deriva dal paragone con gli oggetti materiali del mondo reale, i quali possono venire progettati in astratto e poi realizzati in molteplici copie, forme e versioni. Inoltre gli oggetti hanno delle proprietà, delle funzioni e delle modalità specifiche con cui possiamo interagire con loro.</p>
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Analogamente, in programmazione, una classe è un modo per descrivere un'entità in generale, definendo lo stato abituale e il comportamento che dipende da tale stato, nonché le regole abituali per interagire con tale entità. Formalmente, una classe è vista come un insieme di dati come campi, attributi e funzioni, cioè metodi (modi) per lavorare con essa. Tutti questi elementi sono detti &quot;membri&quot; della classe.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Analogamente, in programmazione, una classe è un modo per descrivere un'entità in generale, definendo lo stato abituale e il comportamento che dipende da tale stato, nonché le regole abituali per interagire con tale entità. Formalmente, una classe è vista come un insieme di dati come campi, attributi e funzioni, cioè metodi (modi) per lavorare con essa. Tutti questi elementi sono detti "membri" della classe.</p>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Ritornando all'esempio degli oggetti fisici, proviamo a descrivere l'entità &quot;bicchiere&quot; usando una classe. Un qualunque bicchiere sarà dunque un oggetto della classe Bicchiere. Possiamo ora individuare degli attributi a noi utili, per esempio il materiale con cui il bicchiere è costruito, la capienza totale, la quantità di liquido contenuta in un certo momento e soprattutto, se è utilizzabile o no. Alcuni attributi sono modificabili, altri invece sono determinati quando il bicchiere viene costruito. Alcuni attributi dipendono da altri attributi, mentre altri sono condizinati dalle condizioni dell'ambiente esterno all'oggetto. Poi abbiamo le azioni che possiamo compiere con il bicchiere. Ad esempio ci sarà utile poterlo riempire e poter bere da esso, magari lavarlo e poi riporlo, e perché no, anche romperlo. Avremo quindi riempi(), bevi(), lava(), riponi() e rompi(). Tutti questi sono i metodi del bicchiere.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Ritornando all'esempio degli oggetti fisici, proviamo a descrivere l'entità "bicchiere" usando una classe. Un qualunque bicchiere sarà dunque un oggetto della classe Bicchiere. Possiamo ora individuare degli attributi a noi utili, per esempio il materiale con cui il bicchiere è costruito, la capienza totale, la quantità di liquido contenuta in un certo momento e soprattutto, se è utilizzabile o no. Alcuni attributi sono modificabili, altri invece sono determinati quando il bicchiere viene costruito. Alcuni attributi dipendono da altri attributi, mentre altri sono condizinati dalle condizioni dell'ambiente esterno all'oggetto. Poi abbiamo le azioni che possiamo compiere con il bicchiere. Ad esempio ci sarà utile poterlo riempire e poter bere da esso, magari lavarlo e poi riporlo, e perché no, anche romperlo. Avremo quindi riempi(), bevi(), lava(), riponi() e rompi(). Tutti questi sono i metodi del bicchiere.</p>
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Notate bene che, in fin dei conti, i metodi non sono altro che procedure o fuzioni; quindi l'OOP può essere vista da un certo punto di vista come coesistente al paradigma procedurale e funzionale.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>L'OOP consente di gestire moltissime tipologie di problemi comuni della vita di tutti i giorni, o per lo meno tutte quelle in cui è conveniente creare dei modelli astratti che rappresentino le entità che dobbiamo manipolare.</p>
 <p>I linguaggi di programmazione che facilitano le implementazioni con il paradigma OOP sono Ruby, Java, C++, Python, Simula (il primo linguaggio OOP), Smalltalk, Visual Basic .NET e Objective-C.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Approccio-all'elaborazione-parallela">Approccio all'elaborazione parallela<a class="anchor-link" href="#Approccio-all'elaborazione-parallela">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Approccio-all'elaborazione-parallela">Approccio all'elaborazione parallela<a class="anchor-link" href="#Approccio-all'elaborazione-parallela">¶</a></h4>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Si ricorre all'elaborazione parallela quando è necessario ridurre il tempo di esecuzione delle istruzioni per raggiungere il risultato più in fretta.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Lo si fa condividendo o parallelizzando le istruzioni su più processori o addirittura su più computer diversi. Il significato di questo approccio può essere riassunto in una frase: &quot;divide et impera&quot;.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Lo si fa condividendo o parallelizzando le istruzioni su più processori o addirittura su più computer diversi. Il significato di questo approccio può essere riassunto in una frase: "divide et impera".</p>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Esempi di linguaggi di programmazione che facilitano le implementazioni con questo paradigma sono: NESL (uno dei più vecchi) e C / C++ con il supporto di librerie ad-hoc, native o esterne come CUDA e OpenCL.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Paradigma-dichiarativo">Paradigma dichiarativo<a class="anchor-link" href="#Paradigma-dichiarativo">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Paradigma-dichiarativo">Paradigma dichiarativo<a class="anchor-link" href="#Paradigma-dichiarativo">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La programmazione dichiarativa è un paradigma di programmazione in cui è importante specificare il problema e il risultato atteso dalla sua soluzione.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>In altre parole, a differenza del paradigma imperativo, in cui è necessario rispondere alla domanda &quot;Come si fa?&quot;, è necessario porsi le domande &quot;Cosa deve essere fatto?&quot; e &quot;Qual è il risultato atteso del lavoro?&quot;.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>In altre parole, a differenza del paradigma imperativo, in cui è necessario rispondere alla domanda "Come si fa?", è necessario porsi le domande "Cosa deve essere fatto?" e "Qual è il risultato atteso del lavoro?".</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Quindi, piuttosto che fornire istruzioni passo-passo, si chiede al sistema ciò di cui si ha bisogno e si lascia che esso cerchi di trovare una soluzione.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Anche in questo caso, se aumentiamo l'astrazione, la programmazione dichiarativa si può suddividere in più paradigmi. I più celebri sono:</p>
 <ul>
 <li>paradigmi logici,</li>
 <li>paradigmi funzionali,</li>
 <li>paradigmi quelli orientati ai database.</li>
 </ul>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Li descriviamo più in dettaglio di seguito.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Paradigma-della-programmazione-logica">Paradigma della programmazione logica<a class="anchor-link" href="#Paradigma-della-programmazione-logica">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Paradigma-della-programmazione-logica">Paradigma della programmazione logica<a class="anchor-link" href="#Paradigma-della-programmazione-logica">¶</a></h4>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La programmazione logica è un paradigma di programmazione fortemente basato sulla logica formale. Un algoritmo scritto seguendo il paradigma logico è un insieme di frasi in forma logica che esprimono fatti e regole su una certa area problematica.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Le affermazioni di base della programmazione logica sono quindi le seguenti:</p>
 <ul>
-<li>I fatti sono asserzioni fondamentali sul dominio del problema. Es. &quot;Socrate è un uomo&quot;.</li>
-<li>Le regole sono inferenze sui fatti del dominio. Es. &quot;Tutti gli uomini sono mortali&quot;.</li>
-<li>Le domande sono domande sul dominio. Es. &quot;Socrate è mortale?&quot;.</li>
+<li>I fatti sono asserzioni fondamentali sul dominio del problema. Es. "Socrate è un uomo".</li>
+<li>Le regole sono inferenze sui fatti del dominio. Es. "Tutti gli uomini sono mortali".</li>
+<li>Le domande sono domande sul dominio. Es. "Socrate è mortale?".</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>In generale, il compito è quello di trovare la risposta alla domanda sulla base dei fatti e delle regole.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Alcuni dei linguaggi che nascono con lo scopo di facilitare la programmazione logica sono: Prolog, Answer Set Programming (ASP) e Datalog.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Paradigma-della-programmazione-funzionale">Paradigma della programmazione funzionale<a class="anchor-link" href="#Paradigma-della-programmazione-funzionale">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Paradigma-della-programmazione-funzionale">Paradigma della programmazione funzionale<a class="anchor-link" href="#Paradigma-della-programmazione-funzionale">¶</a></h4>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La programmazione funzionale è un paradigma di programmazione in cui il flusso di esecuzione del programma è costruito applicando e componendo funzioni.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La funzione, in questo caso, è da intedersi simile a una funzione matematica. Si tratta di una funzione in cui l'input è una struttura di dati che non viene modificata e l'output è una nuova struttura con nuovi dati.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Ciò rende una funzione matematica diversa da una funzione della programmazione procedurale, dove una procedura/funzione è intesa come una sequenza di azioni che possono anche alterare i dati originali e lo stato di esecuzione.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>È un paradigma di programmazione dichiarativo in cui le definizioni delle funzioni sono semplici sequenze sequenze o alberi di espressioni che mappano valori ad altri valori, piuttosto che una sequenza di istruzioni imperative che aggiornano lo stato di esecuzione del programma.</p>
-
 </div>
 </div>
 </div>
 </div>
 </aside><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Per fate un semplice esempio, si potrebbe avere una funzione che prende in input un elenco di numeri e restituisce un nuovo elenco con i quadrati di quei numeri. Questo non modifica l'elenco originale di numeri. Un esempio più complesso potrebbe essere un'applicazione che prende in input delle coodinate cartesiame e il valore di zoom e restituisce un immagine dell'<a href="https://it.wikipedia.org/wiki/Insieme_di_Mandelbrot">insieme di Mandelbrot</a>.</p>
-
 </div>
 </div>
 </div>
 </div>
 </aside><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>I linguaggi di programmazione che facilitano il paradigma della programmazione funzionale sono Haskell, Scala, Julia, Erlang, Lisp, ML, Clojure, OCaml e F#.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Paradigma-di-programmazione-orientata-alle-basi-di-dati">Paradigma di programmazione orientata alle basi di dati<a class="anchor-link" href="#Paradigma-di-programmazione-orientata-alle-basi-di-dati">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Paradigma-di-programmazione-orientata-alle-basi-di-dati">Paradigma di programmazione orientata alle basi di dati<a class="anchor-link" href="#Paradigma-di-programmazione-orientata-alle-basi-di-dati">¶</a></h4>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Le basi di dati, in inglese <em>database</em> (DB), sono il cuore di ogni sistema informativo aziendale e consentono la gestione di file, l'inserimento di dati, l'aggiornamento, l'interrogazione e le funzioni di reportistica.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Un database è una raccolta organizzata di informazioni strutturate, i dati, archiviati elettronicamente in un sistema informatico. Un database è poi solitamente controllato da un programma detto DBMS (<em>DataBase Management System</em>).</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Per elaborare i dati e interrogarli, solitamente il DBMS mette a disposizione un linguaggio ad hoc avente una grammatica speciale detto <em>linguaggio di interrogazione</em>. Con questo linguaggio è possibile accedere ai dati per filtrarli, trasformarli, calcolare statistiche e così via.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Il DBMS è dunque una sorta di metaprogramma che esegue il nostro &quot;programma&quot; scritto con il linguaggio di interrogazione.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Il DBMS è dunque una sorta di metaprogramma che esegue il nostro "programma" scritto con il linguaggio di interrogazione.</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Il &quot;programma&quot; che viene scritto con il linguaggio di interrogazione è molto particolare. In realtà non è un programma vero e proprio, ma viene appunto definito &quot;interrogazione&quot; o in ingleese, <em><strong>query</strong></em>.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Il "programma" che viene scritto con il linguaggio di interrogazione è molto particolare. In realtà non è un programma vero e proprio, ma viene appunto definito "interrogazione" o in ingleese, <em><strong>query</strong></em>.</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Le istruzioni che il DBMS deve eseguire sono definite quindi dalle query, dai dati in ingresso, con i quali definiamo ciò che vogliamo in uscita, piuttosto che da una serie di passaggi definiti dal programmatore.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Ci sono molte tipologie di database e altrettanti linquaggi di interogazione. Le due più famose famiglie di DB sono quella dei database relazionali con linguaggi strutturati e quella dei database non relazionali con linguaggi non strutturati. Alla prima categoria possiamo far risalire il classico e intramontabile SQL (Structured Query Language) e tutti i suoi <a href="https://en.wikipedia.org/wiki/List_of_relational_database_management_systems">dialetti/implementazioni</a>, mentre alla seconda categoria appartengono numerosi proggetti che possiamo definire NoSQL (Non-Structured Query Language). Il più famoso database NoSQL è senza dubbio MongoDB.</p>
 <p>NOTA BENE: I linquaggi di interrogazione sono progettati per uno scopo specifico: interrogare i dati contenuti in un database. Questi linguaggi di solito sono puramente dichiarativi basati su operazioni logiche (insiemi, grafi, dizionari...), non linguaggi di programmazione imperativi come quelli che abbiamo visto precedentemente. Tuttavia, a volte i linquaggi di interrogazione offrono <em>estensioni</em> anche consentono di utilizzare funzionalità tipiche della programmazione procedurale, come i costrutti di controllo del flusso.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Riassumendo">Riassumendo<a class="anchor-link" href="#Riassumendo">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Riassumendo">Riassumendo<a class="anchor-link" href="#Riassumendo">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>I diversi approcci alla creazione di programmi sono chiamati paradigmi.</li>
 <li>A seconda del livello di astrazione, lo stesso programma può essere classificato in paradigmi differenti.</li>
 <li>A livello teleologico ed epistemologico abbiamo due paradigmi di programmazione principali: imperativo (bassa astrazione) e dichiarativo (alta astrazione).<ul>
-<li>Il paradigma imperativo si concentra sul &quot;come&quot;, sul raggiungimento di un risultato utilizzando istruzioni passo-passo che modificano i dati in modo sequenziale. Esso comprende:<ul>
+<li>Il paradigma imperativo si concentra sul "come", sul raggiungimento di un risultato utilizzando istruzioni passo-passo che modificano i dati in modo sequenziale. Esso comprende:<ul>
 <li>il paradigma di programmazione procedurale,</li>
 <li>la programmazione orientata agli oggetti,</li>
 <li>l'approccio all'elaborazione parallela.</li>
 </ul>
 </li>
-<li>Il paradigma dichiarativo si concentra sul &quot;cosa&quot;, sul compito da svolgere e cerca di ottenere un risultato atteso. Esso comprende:<ul>
+<li>Il paradigma dichiarativo si concentra sul "cosa", sul compito da svolgere e cerca di ottenere un risultato atteso. Esso comprende:<ul>
 <li>i paradigmi logici,</li>
 <li>i paradigmi funzionali,</li>
 <li>i paradigmi orientati alle basi di dati.</li>
@@ -16198,109 +16054,104 @@ div.jp-OutputPrompt {
 </li>
 <li>La maggior parte dei linguaggi è multiparadigma.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./imgs/declarative-imperative.jpg" alt="declarative-imperative.jpg" /></p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="declarative-imperative.jpg" src="../imgs/declarative-imperative.jpg"/></p>
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Fondamenti-di-Programmazione-orientata-agli-oggetti">Fondamenti di Programmazione orientata agli oggetti<a class="anchor-link" href="#Fondamenti-di-Programmazione-orientata-agli-oggetti">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Fondamenti-di-Programmazione-orientata-agli-oggetti">Fondamenti di Programmazione orientata agli oggetti<a class="anchor-link" href="#Fondamenti-di-Programmazione-orientata-agli-oggetti">¶</a></h2>
 </div>
 </div>
 </div>
 </div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Detta anche più semplicemente &quot;programmazione ad oggetti&quot;, in inglese Object-Oriented Programming (OOP), è il paradigma di programmazione adottato da Python e quindi quello più naturale quando programmiamo in questo linguaggio.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Detta anche più semplicemente "programmazione ad oggetti", in inglese Object-Oriented Programming (OOP), è il paradigma di programmazione adottato da Python e quindi quello più naturale quando programmiamo in questo linguaggio.</p>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Riassumento i concetti visti nel capitolo precedente, la programmazione orientata agli oggetti è un paradigma di programmazione basato sul concetto di oggetti che interagiscono tra loro per eseguire le funzioni del programma. Ogni oggetto può essere caratterizzato da uno stato e da un comportamento. Lo stato attuale di un oggetto è rappresentato dai suoi attributi, mentre il comportamento di un oggetto è rappresentato dai suoi metodi.</p>
 <p>Vediamo quali sono le peculiarità e la terminologia tipiche della programmazione ad oggetti ed in particolare di Python.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Peculiarit%C3%A0-dell'OOP">Peculiarit&#224; dell'OOP<a class="anchor-link" href="#Peculiarit%C3%A0-dell'OOP">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Peculiarit%C3%A0-dell'OOP">Peculiarità dell'OOP<a class="anchor-link" href="#Peculiarit%C3%A0-dell'OOP">¶</a></h3>
 </div>
 </div>
 </div>
 </div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>I princìpi o caratteristiche fondamentali dell'OOP sono quattro. Si tratta di <strong>incapsulamento</strong>, <strong>astrazione</strong>, <strong>ereditarietà</strong> e <strong>polimorfismo</strong>. Ogni linguaggio orientato agli oggetti implementa questi principi a modo suo, ma l'essenza rimane la stessa da un linguaggio all'altro.</p>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>L'<strong>incapsulamento</strong> consente di raggruppare i dati e i metodi che operano su tali dati, <em>incapsulandoli</em> all'interno di un &quot;contenitore&quot;. Si riferisce anche alla capacità di un oggetto di nascondere la struttura interna delle sue proprietà e dei suoi metodi e di esporre solo ciò che è necessario all'esterno. Ciò consente di proteggere certe parti interne dell'oggetto evitando che vengano usate in modo improprio.</li>
+<li>L'<strong>incapsulamento</strong> consente di raggruppare i dati e i metodi che operano su tali dati, <em>incapsulandoli</em> all'interno di un "contenitore". Si riferisce anche alla capacità di un oggetto di nascondere la struttura interna delle sue proprietà e dei suoi metodi e di esporre solo ciò che è necessario all'esterno. Ciò consente di proteggere certe parti interne dell'oggetto evitando che vengano usate in modo improprio.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definizione di una classe con un attributo privato dei metodi per accedervi</span>
+<div class="CodeMirror cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Definizione di una classe con un attributo privato dei metodi</span>
+<span class="c1"># per accedervi</span>
+
 <span class="k">class</span> <span class="nc">ContoBancario</span><span class="p">:</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">saldo</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">__saldo</span> <span class="o">=</span> <span class="n">saldo</span>  <span class="c1"># __saldo è un attributo &quot;privato&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__saldo</span> <span class="o">=</span> <span class="n">saldo</span>  <span class="c1"># __saldo è un attributo "privato"</span>
 
     <span class="c1"># Metodo per sommare un importo a __saldo</span>
     <span class="k">def</span> <span class="nf">deposita</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">importo</span><span class="p">):</span>
@@ -16311,97 +16162,79 @@ div.jp-OutputPrompt {
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__saldo</span>
 
 <span class="n">mioConto</span> <span class="o">=</span> <span class="n">ContoBancario</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Prima del deposito:&#39;</span><span class="p">,</span> <span class="n">mioConto</span><span class="o">.</span><span class="n">saldo</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Prima del deposito:'</span><span class="p">,</span> <span class="n">mioConto</span><span class="o">.</span><span class="n">saldo</span><span class="p">())</span>
 
 <span class="n">mioConto</span><span class="o">.</span><span class="n">deposita</span><span class="p">(</span><span class="mi">500</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Dopo il deposito:&#39;</span><span class="p">,</span> <span class="n">mioConto</span><span class="o">.</span><span class="n">saldo</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Dopo il deposito:'</span><span class="p">,</span> <span class="n">mioConto</span><span class="o">.</span><span class="n">saldo</span><span class="p">())</span>
 
 <span class="c1"># Prova anche queste istruzioni:</span>
-<span class="c1"># print(&#39;Prima del deposito:&#39;, mioConto.__saldo)  # errore: __saldo non è accessibile dall&#39;esterno</span>
-<span class="c1"># print(&#39;Prima del deposito:&#39;, mioConto._ContoBancario__saldo)  # accesso &quot;forzato&quot; a __saldo</span>
+<span class="c1"># print('Prima del deposito:', mioConto.__saldo)  # errore: __saldo non è accessibile dall'esterno</span>
+<span class="c1"># print('Prima del deposito:', mioConto._ContoBancario__saldo)  # accesso "forzato" a __saldo</span>
 </pre></div>
-
-     </div>
 </div>
 </div>
 </div>
-
+</div>
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-
-
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Prima del deposito: 1000
 Dopo il deposito: 1500
 </pre>
 </div>
 </div>
-
 </div>
-
 </div>
-
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>L'<strong>astrazione</strong> si riferisce alla pratica di isolare l'implementazione complessa di una classe, mostrando solo le funzionalità essenziali all'utente. L'astrazione nasconde la complessità e mostra solo l'interfaccia necessaria.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Automobile</span><span class="p">:</span>
+<div class="CodeMirror cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Automobile</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">avvia</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_controlla_batteria</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_avvia_motore</span><span class="p">()</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Auto avviata&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Auto avviata"</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">_controlla_batteria</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Controllo della batteria&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Controllo della batteria"</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">_avvia_motore</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Avvio del motore&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Avvio del motore"</span><span class="p">)</span>
 
 <span class="n">miaAuto</span> <span class="o">=</span> <span class="n">Automobile</span><span class="p">()</span>
 <span class="n">miaAuto</span><span class="o">.</span><span class="n">avvia</span><span class="p">()</span>
 </pre></div>
-
-     </div>
 </div>
 </div>
 </div>
-
+</div>
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-
-
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Controllo della batteria
 Avvio del motore
@@ -16409,42 +16242,38 @@ Auto avviata
 </pre>
 </div>
 </div>
-
 </div>
-
 </div>
-
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>L'<strong>ereditarietà</strong> consente di definenire delle relazioni genitore-figlio tra le classi in modo che una nuova classe (figlia) possa ereditare proprietà e metodi da una classe esistente (genitore). Spesso gli oggetti sono molto simili, quindi l'ereditarietà consente ai programmatori di riutilizzare la logica comune e allo stesso tempo di introdurre concetti unici nelle classi.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Classe genitore</span>
+<div class="CodeMirror cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Classe genitore</span>
 <span class="k">class</span> <span class="nc">Animale</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">mangia</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;L&#39;animale sta mangiando&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"L'animale sta mangiando"</span><span class="p">)</span>
 
 <span class="c1"># Classe figlia</span>
 <span class="k">class</span> <span class="nc">Cane</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">abbaia</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Il cane sta abbaiando&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Il cane sta abbaiando"</span><span class="p">)</span>
 
 <span class="c1"># Creaione di un oggetto della classe figlia</span>
 <span class="n">fido</span> <span class="o">=</span> <span class="n">Cane</span><span class="p">()</span>
@@ -16453,69 +16282,60 @@ Auto avviata
 <span class="n">fido</span><span class="o">.</span><span class="n">mangia</span><span class="p">()</span>  <span class="c1"># Ereditato da Animale</span>
 <span class="n">fido</span><span class="o">.</span><span class="n">abbaia</span><span class="p">()</span>  <span class="c1"># Proprio di Cane</span>
 </pre></div>
-
-     </div>
 </div>
 </div>
 </div>
-
+</div>
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-
-
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>L&#39;animale sta mangiando
+<pre>L'animale sta mangiando
 Il cane sta abbaiando
 </pre>
 </div>
 </div>
-
 </div>
-
 </div>
-
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Il <strong>polimorfismo</strong> significa letteralmente &quot;avere molte forme&quot; ed è un concetto correlato all'ereditarietà. Permette ai programmatori di definire diverse implementazioni per lo stesso oggetto o metodo. In questo modo, il nome (o interfaccia) rimane lo stesso, ma le azioni consentite e quelle eseguite possono variare in base a certe condizioni.</li>
+<li>Il <strong>polimorfismo</strong> significa letteralmente "avere molte forme" ed è un concetto correlato all'ereditarietà. Permette ai programmatori di definire diverse implementazioni per lo stesso oggetto o metodo. In questo modo, il nome (o interfaccia) rimane lo stesso, ma le azioni consentite e quelle eseguite possono variare in base a certe condizioni.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" ><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Classe genitore, con metodo &quot;astratto/virtuale&quot; (da implementare nelle classi figlie)</span>
+<div class="CodeMirror cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Classe genitore, con metodo "astratto/virtuale" (da implementare </span>
+<span class="c1"># nelle classi figlie)</span>
+
 <span class="k">class</span> <span class="nc">Animale</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">pass</span>
 
-<span class="c1"># Classi figlie, che implementano il metodo &quot;astratto&quot;</span>
+<span class="c1"># Classi figlie, che implementano il metodo "astratto"</span>
 <span class="k">class</span> <span class="nc">Cane</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bau&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Bau"</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">Gatto</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Miao&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Miao"</span><span class="p">)</span>
 
 <span class="c1"># Funzione che accetta un oggetto di tipo Animale come parametro</span>
 <span class="k">def</span> <span class="nf">fai_parlare</span><span class="p">(</span><span class="n">animale</span><span class="p">):</span>
@@ -16529,189 +16349,176 @@ Il cane sta abbaiando
 <span class="n">fai_parlare</span><span class="p">(</span><span class="n">fido</span><span class="p">)</span>
 <span class="n">fai_parlare</span><span class="p">(</span><span class="n">felix</span><span class="p">)</span>
 </pre></div>
-
-     </div>
 </div>
 </div>
 </div>
-
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Vediamo in Python come questi princìpi vengono implementati:</p>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <table>
 <thead>
 <tr>
-  <th>Caratteristica OOP</th>
-  <th>Python Feature</th>
+<th>Caratteristica OOP</th>
+<th>Python Feature</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>astrazione</td>
-  <td>→ classe</td>
+<td>astrazione</td>
+<td>→ classe</td>
 </tr>
 <tr>
-  <td>incapsulamento</td>
-  <td>→ prefisso nomi con doppio underscore “<code>__</code>”<br/>→ <code>property()</code></td>
+<td>incapsulamento</td>
+<td>→ prefisso nomi con doppio underscore “<code>__</code>”<br/>→ <code>property()</code></td>
 </tr>
 <tr>
-  <td>ereditarietà</td>
-  <td>→ parametri della classe</td>
+<td>ereditarietà</td>
+<td>→ parametri della classe</td>
 </tr>
 <tr>
-  <td>polimorfismo</td>
-  <td>→ <em>compile time</em>: overload (<code>*args, **kwargs</code>)<br/>→ <em>run time</em>: override / classi, proprietà o metodi astratti</td>
+<td>polimorfismo</td>
+<td>→ <em>compile time</em>: overload (<code>*args, **kwargs</code>)<br/>→ <em>run time</em>: override / classi, proprietà o metodi astratti</td>
 </tr>
 </tbody>
 </table>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Gli-oggetti">Gli oggetti<a class="anchor-link" href="#Gli-oggetti">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Gli-oggetti">Gli oggetti<a class="anchor-link" href="#Gli-oggetti">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La nozione chiave dell'OOP è, naturalmente, quella di oggetto. Ci sono molti oggetti del mondo reale intorno a noi: animali domestici, edifici, automobili, computer, aerei, e chi più ne ha più ne metta. Anche un programma per computer può essere considerato un oggetto.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>È possibile identificare alcune caratteristiche importanti degli oggetti del mondo reale. Per esempio, per un edificio possiamo considerare il numero di piani, l'anno di costruzione e la superficie totale. Un altro esempio è un aereo, che può ospitare un certo numero di passeggeri e trasferirvi da una città all'altra. Queste caratteristiche costituiscono gli attributi e i metodi dell'oggetto. Gli attributi caratterizzano gli stati o i dati di un oggetto, mentre i metodi ne caratterizzano il comportamento.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Nell'OOP, tutto può essere visto come un oggetto; una classe, ad esempio, è anche un oggetto. I programmi sono costituiti da diversi oggetti che interagiscono tra loro. Lo stato e il comportamento degli oggetti sono solitamente combinati, ma non è sempre così. A volte vediamo oggetti senza stato o metodi. Questo, ovviamente, dipende dallo scopo del programma e dalla natura dell'oggetto.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Le-classi">Le classi<a class="anchor-link" href="#Le-classi">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Le-classi">Le classi<a class="anchor-link" href="#Le-classi">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Spesso molti singoli oggetti hanno caratteristiche simili e quindi possiamo dire che quegli oggetti appartengono allo stesso tipo o classe.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>La classe è un'altra nozione importante dell'OOP. Una classe descrive una struttura comune di oggetti simili: i loro campi/attributi e metodi. Può essere considerata un modello o un progetto per oggetti simili. Un oggetto è invece un'istanza individuale di una classe.</p>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>In conformità con il principio dell'incapsulamento menzionato in precedenza, ogni classe dovrebbe essere considerata come una blackbox, cioè l'utente della classe dovrebbe vedere e utilizzare solo la parte dell'interfaccia della classe, cioè l'elenco delle proprietà e dei metodi dichiarati, e non dovrebbe addentrarsi nell'implementazione interna.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Esempi">Esempi<a class="anchor-link" href="#Esempi">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Esempi">Esempi<a class="anchor-link" href="#Esempi">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Esempio-1.-La-classe-Edificio">Esempio 1. La classe Edificio<a class="anchor-link" href="#Esempio-1.-La-classe-Edificio">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Esempio-1.-La-classe-Edificio">Esempio 1. La classe Edificio<a class="anchor-link" href="#Esempio-1.-La-classe-Edificio">¶</a></h4>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Un edificio astratto per descrivere gli edifici come un tipo di oggetto (classe).</p>
 <p>Ogni edificio ha gli stessi attributi:</p>
 <ul>
@@ -16726,70 +16533,67 @@ Il cane sta abbaiando
 <li>Edificio 2: numero di piani = 6, area = 3200,54, anno di costruzione = 2001.</li>
 </ul>
 <p>È piuttosto difficile determinare il comportamento di un edificio, ma questo esempio dimostra abbastanza bene gli attributi.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Esempio-2.-La-classe-Aereo">Esempio 2. La classe Aereo<a class="anchor-link" href="#Esempio-2.-La-classe-Aereo">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Esempio-2.-La-classe-Aereo">Esempio 2. La classe Aereo<a class="anchor-link" href="#Esempio-2.-La-classe-Aereo">¶</a></h4>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>A differenza di un edificio, è facile definire il comportamento di un aereo: può volare e trasferirsi tra due punti del pianeta.</p>
 <p>Un piano astratto per descrivere tutti gli aerei come un tipo di oggetto (classe).</p>
 <p>Ogni aereo ha i seguenti attributi:</p>
 <ul>
-<li>Nome (una stringa, ad esempio &quot;Airbus A320&quot; o &quot;Boeing 777&quot;);</li>
+<li>Nome (una stringa, ad esempio "Airbus A320" o "Boeing 777");</li>
 <li>Capacità passeggeri (un numero intero);</li>
 <li>Velocità standard (un numero intero);</li>
 <li>Coordinate attuali (necessarie per la navigazione).</li>
 </ul>
 <p>Inoltre, ha un comportamento (un metodo): trasferire i passeggeri da un punto geografico a un altro. Questo comportamento modifica lo stato di un aereo, ossia le sue coordinate correnti.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Esempio-3.-La-classe-Animale:-implementazione-in-Python">Esempio 3. La classe Animale: implementazione in Python<a class="anchor-link" href="#Esempio-3.-La-classe-Animale:-implementazione-in-Python">&#182;</a></h4>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Esempio-3.-La-classe-Animale:-implementazione-in-Python">Esempio 3. La classe Animale: implementazione in Python<a class="anchor-link" href="#Esempio-3.-La-classe-Animale:-implementazione-in-Python">¶</a></h4>
 </div>
 </div>
 </div>
-</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Animale</span><span class="p">:</span>
+<div class="CodeMirror cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Animale</span><span class="p">:</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nome</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">nome</span> <span class="o">=</span> <span class="n">nome</span>
 
     <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2"> fa un suono.&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2"> fa un suono."</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">Cane</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nome</span><span class="p">,</span> <span class="n">razza</span><span class="p">):</span>
@@ -16797,39 +16601,32 @@ Il cane sta abbaiando
         <span class="bp">self</span><span class="o">.</span><span class="n">razza</span> <span class="o">=</span> <span class="n">razza</span>
 
     <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2">, che è un </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">razza</span><span class="si">}</span><span class="s2">, abbaia.&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2">, che è un </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">razza</span><span class="si">}</span><span class="s2">, abbaia."</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">Gatto</span><span class="p">(</span><span class="n">Animale</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">emetti_suono</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2"> fa le fusa.&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2"> fa le fusa."</span><span class="p">)</span>
 
 <span class="c1"># Creazione di istanze delle classi</span>
-<span class="n">animale_generale</span> <span class="o">=</span> <span class="n">Animale</span><span class="p">(</span><span class="s2">&quot;Animale Generico&quot;</span><span class="p">)</span>
-<span class="n">fido</span> <span class="o">=</span> <span class="n">Cane</span><span class="p">(</span><span class="s2">&quot;Fido&quot;</span><span class="p">,</span> <span class="s2">&quot;Labrador&quot;</span><span class="p">)</span>
-<span class="n">micio</span> <span class="o">=</span> <span class="n">Gatto</span><span class="p">(</span><span class="s2">&quot;Micio&quot;</span><span class="p">)</span>
+<span class="n">animale_generale</span> <span class="o">=</span> <span class="n">Animale</span><span class="p">(</span><span class="s2">"Animale Generico"</span><span class="p">)</span>
+<span class="n">fido</span> <span class="o">=</span> <span class="n">Cane</span><span class="p">(</span><span class="s2">"Fido"</span><span class="p">,</span> <span class="s2">"Labrador"</span><span class="p">)</span>
+<span class="n">micio</span> <span class="o">=</span> <span class="n">Gatto</span><span class="p">(</span><span class="s2">"Micio"</span><span class="p">)</span>
 
 <span class="c1"># Uso dei metodi</span>
 <span class="n">animale_generale</span><span class="o">.</span><span class="n">emetti_suono</span><span class="p">()</span>
 <span class="n">fido</span><span class="o">.</span><span class="n">emetti_suono</span><span class="p">()</span>
 <span class="n">micio</span><span class="o">.</span><span class="n">emetti_suono</span><span class="p">()</span>
 </pre></div>
-
-     </div>
 </div>
 </div>
 </div>
-
+</div>
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-
-
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Animale Generico fa un suono.
 Fido, che è un Labrador, abbaia.
@@ -16837,281 +16634,263 @@ Micio fa le fusa.
 </pre>
 </div>
 </div>
-
 </div>
-
 </div>
-
-</div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Nomenclatura-generica-e-specifica">Nomenclatura generica e specifica<a class="anchor-link" href="#Nomenclatura-generica-e-specifica">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Nomenclatura-generica-e-specifica">Nomenclatura generica e specifica<a class="anchor-link" href="#Nomenclatura-generica-e-specifica">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Se conosci già altri linguaggi di programmazione, e non ti sei mai ancora approcciato alla programmazione ad oggetti, probabilmente sarai abituato ad una terminologia più &quot;classica&quot;. Vediamo a grandi linee quali sono queste differenze.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Se conosci già altri linguaggi di programmazione, e non ti sei mai ancora approcciato alla programmazione ad oggetti, probabilmente sarai abituato ad una terminologia più "classica". Vediamo a grandi linee quali sono queste differenze.</p>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><em>NB: Se non hai mai programmato, questa terminologia ti potrebbe essere estranea al momento, quindi per ora dai una lettura veloce e poi ritorna qua se e quando avrai dei dubbi sulla nomenclatura.</em></p>
-
 </div>
 </div>
 </div>
 </div>
 </aside>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <table>
 <thead>
 <tr>
-  <th>Classico</th>
-  <th>OOP generico</th>
-  <th>OOP Python</th>
+<th>Classico</th>
+<th>OOP generico</th>
+<th>OOP Python</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>funzione/procedura</td>
-  <td>metodo</td>
-  <td>metodo/funzione</td>
+<td>funzione/procedura</td>
+<td>metodo</td>
+<td>metodo/funzione</td>
 </tr>
 <tr>
-  <td>record/variabile</td>
-  <td>oggetto/istanza</td>
-  <td>oggetto (variabile o attributo)</td>
+<td>record/variabile</td>
+<td>oggetto/istanza</td>
+<td>oggetto (variabile o attributo)</td>
 </tr>
 <tr>
-  <td>modulo</td>
-  <td>classe/interfaccia</td>
-  <td>tipo/classe/metaclasse</td>
+<td>modulo</td>
+<td>classe/interfaccia</td>
+<td>tipo/classe/metaclasse</td>
 </tr>
 <tr>
-  <td>chiamata (alla procedura)</td>
-  <td>messaggio</td>
-  <td>chiamata/invocazione</td>
+<td>chiamata (alla procedura)</td>
+<td>messaggio</td>
+<td>chiamata/invocazione</td>
 </tr>
 </tbody>
 </table>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Possiamo inoltre chiamare gli elementi in modo diverso, a seconda che questi siano contenuti in un oggetto o no.</p>
-
 </div>
 </div>
 </div>
 </div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <table>
 <thead>
 <tr>
-  <th>Fuori da un oggetto</th>
-  <th>Dentro un oggetto (*)</th>
+<th>Fuori da un oggetto</th>
+<th>Dentro un oggetto (*)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>funzione/procedura</td>
-  <td>metodo</td>
+<td>funzione/procedura</td>
+<td>metodo</td>
 </tr>
 <tr>
-  <td>variabile</td>
-  <td>attributo<br/>proprietà (con getter, setter, ecc...)</td>
+<td>variabile</td>
+<td>attributo<br/>proprietà (con getter, setter, ecc...)</td>
 </tr>
 </tbody>
 </table>
-
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <blockquote>
 <p><em>(*) Come vedremo, in Python alla fine tutto è un oggetto!</em></p>
 </blockquote>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Nel caso di &quot;funzione&quot; e &quot;metodo&quot; è bene cercare di chiarire ulteriormente.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Nel caso di "funzione" e "metodo" è bene cercare di chiarire ulteriormente.</p>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <table>
 <thead>
 <tr>
-  <th>Caratteristica</th>
-  <th>Funzione</th>
-  <th>Metodo</th>
+<th>Caratteristica</th>
+<th>Funzione</th>
+<th>Metodo</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td><em>esistenza</em></td>
-  <td>esiste per conto suo</td>
-  <td>appartiene ad una classe/oggetto</td>
+<td><em>esistenza</em></td>
+<td>esiste per conto suo</td>
+<td>appartiene ad una classe/oggetto</td>
 </tr>
 <tr>
-  <td><em>definizione</em></td>
-  <td>non richiede <code>self</code><br/>tra i suoi parametri</td>
-  <td>richiede <code>self</code> (l'oggetto a cui appartiene)<br/>tra i suoi parametri</td>
+<td><em>definizione</em></td>
+<td>non richiede <code>self</code><br/>tra i suoi parametri</td>
+<td>richiede <code>self</code> (l'oggetto a cui appartiene)<br/>come primo parametro</td>
 </tr>
 <tr>
-  <td><em>chiamata</em></td>
-  <td><code>funzione()</code></td>
-  <td><code>oggetto.metodo()</code></td>
+<td><em>chiamata</em></td>
+<td><code>funzione()</code></td>
+<td><code>oggetto.metodo()</code></td>
 </tr>
 </tbody>
 </table>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Riassumendo">Riassumendo<a class="anchor-link" href="#Riassumendo">&#182;</a></h3>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Riassumendo">Riassumendo<a class="anchor-link" href="#Riassumendo">¶</a></h3>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Per farla breve, è bene ricordare quanto segue:</p>
-
 </div>
 </div>
 </div>
 </div>
 </aside>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>Un programma orientato agli oggetti consiste in un insieme di oggetti interagenti.</li>
 <li>Secondo il principio dell'incapsulamento, l'implementazione interna dell'oggetto non è accessibile all'utente.</li>
-<li>Un oggetto può avere delle caratteristiche: campi e metodi.</li>
+<li>Un oggetto può avere delle caratteristiche: attributi (campi) e metodi (funzioni).</li>
 <li>Un oggetto è un'istanza di una classe (tipo);</li>
 <li>Una classe è un concetto più astratto di un singolo oggetto; può essere considerata un modello o un <em>blueprint</em> che descrive la struttura comune di un insieme di oggetti simili.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Licenze-software">Licenze software<a class="anchor-link" href="#Licenze-software">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Licenze-software">Licenze software<a class="anchor-link" href="#Licenze-software">¶</a></h2>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./imgs/licenses//software_license_categories.png" alt="software_license_categories.png" /></p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="software_license_categories.png" src="../imgs/licenses//software_license_categories.png"/></p>
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./imgs/licenses/foss_licenses.jpg" alt="foss_licenses.jpg" /></p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="foss_licenses.jpg" src="../imgs/licenses/foss_licenses.jpg"/></p>
 </div>
 </div>
 </div>
-</div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Un-po'-di-etica...">Un po' di etica...<a class="anchor-link" href="#Un-po'-di-etica...">&#182;</a></h3><p>Se credi che il software pagato dai contribuenti debba essere software libero e open, sappi che esiste una petizione al riguardo: <a href="https://publiccode.eu/it/">Public Code</a></p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Un-po'-di-etica...">Un po' di etica...<a class="anchor-link" href="#Un-po'-di-etica...">¶</a></h3><p>Se credi che il software pagato dai contribuenti debba essere software libero e open, sappi che esiste una petizione al riguardo: <a href="https://publiccode.eu/it/">Public Code</a></p>
 </div>
 </div>
 </div>
@@ -17119,13 +16898,6 @@ Micio fa le fusa.
 </div>
 </div>
 </body>
-
-
-
-
-
-
-
 <script>
 require(
     {
@@ -17146,21 +16918,7 @@ require(
             history: true,
             transition: "slide",
             slideNumber: "",
-            plugins: [RevealNotes],
-
-            // The "normal" size of the presentation, aspect ratio will
-            // be preserved when the presentation is scaled to fit different
-            // resolutions. Can be specified using percentage units.
-            width: 1200,
-            height: 700,
-
-            // Factor of the display size that should remain empty around
-            // the content
-            // margin: 0.04,
-
-            // Bounds for smallest/largest possible scale to apply to content
-            // minScale: 0.2,
-            // maxScale: 2.0
+            plugins: [RevealNotes]
         });
 
         var update = function(event){
@@ -17190,5 +16948,4 @@ require(
     }
 );
 </script>
-
 </html>

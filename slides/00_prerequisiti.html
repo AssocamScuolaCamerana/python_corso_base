@@ -1,17 +1,13 @@
 <!DOCTYPE html>
+
 <html>
-<head><meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-
+<head><meta charset="utf-8"/>
+<meta content="chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
 <title>00_prerequisiti slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
-
+<link href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css" rel="stylesheet"/>
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
 if( window.location.search.match( /print-pdf/gi ) ) {
@@ -21,7 +17,6 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 </script>
-
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -72,9 +67,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .ss { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Symbol */
 .highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
   </style>
-
-
-
 <style type="text/css">
 /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
@@ -14072,8 +14064,7 @@ div.jp-Cell-Placeholder-content-3 {
 }
 
 </style>
-
-    <style type="text/css">
+<style type="text/css">
 /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
 | Distributed under the terms of the Modified BSD License.
@@ -14484,7 +14475,6 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-icon-contrast-color3: var(--md-blue-600);
 }
 </style>
-
 <style type="text/css">
 a.anchor-link {
    display: none;
@@ -14507,15 +14497,10 @@ a.anchor-link {
   }
 }
 </style>
-
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 .reveal {
   font-size: 160%;
-}
-.reveal ::selection {
-    color: black!important;
-    background: white!important;
 }
 .reveal table {
   font-size: var(--jp-ui-font-size1);
@@ -14631,11 +14616,10 @@ div.jp-OutputPrompt {
   background: #727272 !important;
 }
 </style>
-
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"> </script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"> </script>
+<!-- MathJax configuration -->
+<script type="text/x-mathjax-config">
     init_mathjax = function() {
         if (window.MathJax) {
         // MathJax loaded
@@ -14665,49 +14649,44 @@ div.jp-OutputPrompt {
     }
     init_mathjax();
     </script>
-    <!-- End of mathjax configuration --><!-- Reveal Theme -->
-<link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/theme/black.css" id="theme">
-
+<!-- End of mathjax configuration --><!-- Reveal Theme -->
+<link href="https://unpkg.com/reveal.js@4.0.2/dist/theme/black.css" id="theme" rel="stylesheet"/>
 </head>
-
 <body class="jp-Notebook" data-jp-theme-light="false" data-jp-theme-name="JupyterLab Dark">
-
 <div class="reveal">
-<div class="slides"><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="slides"><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Prerequisiti">Prerequisiti<a class="anchor-link" href="#Prerequisiti">&#182;</a></h1>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Prerequisiti">Prerequisiti<a class="anchor-link" href="#Prerequisiti">¶</a></h1>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Per poter affrontare tutti gli aspetti più tecnici di questo corso, è necessaria una serie di conoscenze e competenze che possiamo definire *<strong>di base e propedeutiche</strong>*.</p>
 <p>Assicurati di possedere queste conoscenze e, in caso contrario, non aspettare troppo e trova il tempo per approfondirle ed acquisirle in quanto non vi sarà il tempo di trattarle nella prima parte introduttiva.</p>
-<p>Gli argomenti segnati con una freccia &quot;→&quot; sono da considerarsi FONDAMENTALI E IMPRESCINDIBILI. Insomma, per poter programmare software, dovete prima essere anche un po' &quot;informatici&quot;. Come possiamo altrimenti pensare di dare istruzioni a una <em>cosa</em> che nemmeno conosciamo?</p>
+<p>Gli argomenti segnati con una freccia "→" sono da considerarsi FONDAMENTALI E IMPRESCINDIBILI. Insomma, per poter programmare software, dovete prima essere anche un po' "informatici". Come possiamo altrimenti pensare di dare istruzioni a una <em>cosa</em> che nemmeno conosciamo?</p>
 <p>Gli argomenti non contrassegnati con la freccia sono comunque da considerarsi propedeutici e quindi avrete vita più semplice se possedete quelle conoscenze.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>Conoscenza di base della lingua inglese.</li>
 <li>→ Aritmetica e geometria di base, concetti di: funzione matematica, grafico cartesiano, operatori logici e insiemi.</li>
@@ -14726,340 +14705,355 @@ div.jp-OutputPrompt {
 <li>Concetti basilari sulle tecnologie web HTML, JavaScript e CSS.</li>
 <li>→ Nozioni basilari di sicurezza informatica.</li>
 </ul>
-
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <blockquote>
 <p>NOTA: Gli argomenti non sono in ordine casuale ma da quelli più generali si va a quelli più specifici.</p>
 </blockquote>
-
 </div>
 </div>
 </div>
 </div>
-</aside></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Simboli-e-caratteri-speciali-usati-in-programmazione">Simboli e caratteri speciali usati in programmazione<a class="anchor-link" href="#Simboli-e-caratteri-speciali-usati-in-programmazione">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Simboli-e-caratteri-speciali-usati-in-programmazione">Simboli e caratteri speciali usati in programmazione<a class="anchor-link" href="#Simboli-e-caratteri-speciali-usati-in-programmazione">¶</a></h2>
 </div>
 </div>
 </div>
-</div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <table>
 <thead>
 <tr>
-  <th>ITALIANO</th>
-  <th>NOME UNICODE</th>
-  <th style="text-align:center">SIMBOLO</th>
-  <th>ICT SLANG</th>
-  <th>NOTE</th>
+<th>ITALIANO</th>
+<th>NOME UNICODE</th>
+<th style="text-align:center">SIMBOLO</th>
+<th>ICT SLANG</th>
+<th>NOTE</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>apostrofo<br>virgoletta singola<br>apice singolo</td>
-  <td>apostrophe</td>
-  <td style="text-align:center"><code>'</code></td>
-  <td><strong>single quotes</strong></td>
-  <td>no:<br><code>‘ ’</code></td>
+<td>apostrofo<br/>virgoletta singola<br/>apice singolo</td>
+<td>apostrophe</td>
+<td style="text-align:center"><code>'</code></td>
+<td><strong>single quotes</strong></td>
+<td>no:<br/><code>‘ ’</code></td>
 </tr>
 <tr>
-  <td>virgoletta doppia<br>apice doppio</td>
-  <td>quotation mark</td>
-  <td style="text-align:center"><code>&quot;</code></td>
-  <td><strong>double quotes</strong></td>
-  <td>no:<br><code>“ ”</code></td>
+<td>virgoletta doppia<br/>apice doppio</td>
+<td>quotation mark</td>
+<td style="text-align:center"><code>"</code></td>
+<td><strong>double quotes</strong></td>
+<td>no:<br/><code>“ ”</code></td>
 </tr>
 <tr>
-  <td></td>
-  <td></td>
-  <td style="text-align:center"><code>'''</code></td>
-  <td><strong>triple single quotes</strong></td>
-  <td></td>
+<td></td>
+<td></td>
+<td style="text-align:center"><code>'''</code></td>
+<td><strong>triple single quotes</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td></td>
-  <td></td>
-  <td style="text-align:center"><code>&quot;&quot;&quot;</code></td>
-  <td><strong>triple double quotes</strong></td>
-  <td></td>
+<td></td>
+<td></td>
+<td style="text-align:center"><code>"""</code></td>
+<td><strong>triple double quotes</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td>accento grave</td>
-  <td>grave accent</td>
-  <td style="text-align:center"><code>`</code></td>
-  <td><strong>backtick</strong></td>
-  <td></td>
+<td>accento grave</td>
+<td>grave accent</td>
+<td style="text-align:center"><code>`</code></td>
+<td><strong>backtick</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td>punto</td>
-  <td>full stop</td>
-  <td style="text-align:center"><code>.</code></td>
-  <td><strong>dot (domain)<br>period (sentences)<br>point (float numbers)</strong></td>
-  <td></td>
+<td>punto</td>
+<td>full stop</td>
+<td style="text-align:center"><code>.</code></td>
+<td><strong>dot (domain)<br/>period (sentences)<br/>point (float numbers)</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td>virgola</td>
-  <td><strong>comma</strong></td>
-  <td style="text-align:center"><code>,</code></td>
-  <td></td>
-  <td></td>
+<td>virgola</td>
+<td><strong>comma</strong></td>
+<td style="text-align:center"><code>,</code></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-  <td>due punti</td>
-  <td><strong>colon</strong></td>
-  <td style="text-align:center"><code>:</code></td>
-  <td></td>
-  <td></td>
+<td>due punti</td>
+<td><strong>colon</strong></td>
+<td style="text-align:center"><code>:</code></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-  <td>punto e virgola</td>
-  <td><strong>semicolon</strong></td>
-  <td style="text-align:center"><code>;</code></td>
-  <td></td>
-  <td></td>
+<td>punto e virgola</td>
+<td><strong>semicolon</strong></td>
+<td style="text-align:center"><code>;</code></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-  <td>punto esclamativo</td>
-  <td><strong>exclamation mark</strong></td>
-  <td style="text-align:center"><code>!</code></td>
-  <td></td>
-  <td></td>
+<td>punto esclamativo</td>
+<td><strong>exclamation mark</strong></td>
+<td style="text-align:center"><code>!</code></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-  <td>punto interrogativo</td>
-  <td><strong>question mark</strong></td>
-  <td style="text-align:center"><code>?</code></td>
-  <td></td>
-  <td></td>
+<td>punto interrogativo</td>
+<td><strong>question mark</strong></td>
+<td style="text-align:center"><code>?</code></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-  <td>cancelletto</td>
-  <td>number sign</td>
-  <td style="text-align:center"><code>#</code></td>
-  <td><strong>hash</strong></td>
-  <td></td>
+<td>cancelletto</td>
+<td>number sign</td>
+<td style="text-align:center"><code>#</code></td>
+<td><strong>hash</strong></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-
 </div>
 </div>
 </div>
-</div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <table>
 <thead>
 <tr>
-  <th>ITALIANO</th>
-  <th>NOME UNICODE</th>
-  <th style="text-align:center">SIMBOLO</th>
-  <th>ICT SLANG</th>
-  <th>NOTE</th>
+<th>ITALIANO</th>
+<th>NOME UNICODE</th>
+<th style="text-align:center">SIMBOLO</th>
+<th>ICT SLANG</th>
+<th>NOTE</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>trattino basso</td>
-  <td>low line</td>
-  <td style="text-align:center"><code>_</code></td>
-  <td><strong>underscore</strong></td>
-  <td></td>
+<td>trattino basso</td>
+<td>low line</td>
+<td style="text-align:center"><code>_</code></td>
+<td><strong>underscore</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td>trattino / meno</td>
-  <td>hyphen-minus</td>
-  <td style="text-align:center"><code>-</code></td>
-  <td><strong>minus</strong></td>
-  <td>no:<br><code>− – —</code></td>
+<td>trattino / meno</td>
+<td>hyphen-minus</td>
+<td style="text-align:center"><code>-</code></td>
+<td><strong>minus</strong></td>
+<td>no:<br/><code>− – —</code></td>
 </tr>
 <tr>
-  <td>più</td>
-  <td>plus sign</td>
-  <td style="text-align:center"><code>+</code></td>
-  <td><strong>plus</strong></td>
-  <td></td>
+<td>più</td>
+<td>plus sign</td>
+<td style="text-align:center"><code>+</code></td>
+<td><strong>plus</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td>barra obliqua</td>
-  <td>solidus</td>
-  <td style="text-align:center"><code>/</code></td>
-  <td><strong>slash</strong></td>
-  <td></td>
+<td>barra obliqua</td>
+<td>solidus</td>
+<td style="text-align:center"><code>/</code></td>
+<td><strong>slash</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td>barra rovesciata</td>
-  <td>reverse solidus</td>
-  <td style="text-align:center"><code>\</code></td>
-  <td><strong>backslash</strong></td>
-  <td></td>
+<td>barra rovesciata</td>
+<td>reverse solidus</td>
+<td style="text-align:center"><code>\</code></td>
+<td><strong>backslash</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td>asterisco</td>
-  <td><strong>asterisk</strong></td>
-  <td style="text-align:center"><code>*</code></td>
-  <td></td>
-  <td></td>
+<td>asterisco</td>
+<td><strong>asterisk</strong></td>
+<td style="text-align:center"><code>*</code></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-  <td>chiocciola</td>
-  <td>commercial at</td>
-  <td style="text-align:center"><code>@</code></td>
-  <td><strong>at</strong></td>
-  <td></td>
+<td>chiocciola</td>
+<td>commercial at</td>
+<td style="text-align:center"><code>@</code></td>
+<td><strong>at</strong></td>
+<td></td>
 </tr>
 <tr>
-  <td>e commerciale</td>
-  <td><strong>ampersand</strong></td>
-  <td style="text-align:center"><code>&amp;</code></td>
-  <td></td>
-  <td></td>
+<td>e commerciale</td>
+<td><strong>ampersand</strong></td>
+<td style="text-align:center"><code>&amp;</code></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-  <td>barra verticale</td>
-  <td>vertical line</td>
-  <td style="text-align:center"><code>|</code></td>
-  <td><strong>pipe / vertical bar</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>parentesi tonde</td>
-  <td>left/right parenthesis</td>
-  <td style="text-align:center"><code>()</code></td>
-  <td><strong>parentheses</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>parentesi quadre</td>
-  <td>left/right square brackets</td>
-  <td style="text-align:center"><code>[]</code></td>
-  <td><strong>brackets</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>parentesi graffe</td>
-  <td>left/right curly brackets</td>
-  <td style="text-align:center"><code>{}</code></td>
-  <td><strong>braces</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>parentesi uncinate</td>
-  <td>less/greater-than signs</td>
-  <td style="text-align:center"><code>&lt;&gt;</code></td>
-  <td><strong>chevrons</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>minore di</td>
-  <td>less-than sign</td>
-  <td style="text-align:center"><code>&lt;</code></td>
-  <td><strong>less-than</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>maggiore di</td>
-  <td>greater-than sign</td>
-  <td style="text-align:center"><code>&gt;</code></td>
-  <td><strong>greater-than</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>uquale</td>
-  <td>equals sign</td>
-  <td style="text-align:center"><code>=</code></td>
-  <td><strong>equals</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>dollaro</td>
-  <td>dollar sign</td>
-  <td style="text-align:center"><code>$</code></td>
-  <td><strong>dollar</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>percento</td>
-  <td>percent sign</td>
-  <td style="text-align:center"><code>%</code></td>
-  <td><strong>percent</strong></td>
-  <td></td>
+<td>barra verticale</td>
+<td>vertical line</td>
+<td style="text-align:center"><code>|</code></td>
+<td><strong>pipe / vertical bar</strong></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Regole-d'oro">Regole d'oro<a class="anchor-link" href="#Regole-d'oro">&#182;</a></h2><p>L'azione che più sovente si compie in informatica (la scienza che studia il trattamento delle informazioni), è dare i nomi alle cose. Tutto si basa su questo. Prima diamo dei nomi alle cose e poi possiamo cominciare a ragionarci sopra.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<table>
+<thead>
+<tr>
+<th>ITALIANO</th>
+<th>NOME UNICODE</th>
+<th style="text-align:center">SIMBOLO</th>
+<th>ICT SLANG</th>
+<th>NOTE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>parentesi tonde</td>
+<td>left/right parenthesis</td>
+<td style="text-align:center"><code>()</code></td>
+<td><strong>parentheses</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>parentesi quadre</td>
+<td>left/right square brackets</td>
+<td style="text-align:center"><code>[]</code></td>
+<td><strong>brackets</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>parentesi graffe</td>
+<td>left/right curly brackets</td>
+<td style="text-align:center"><code>{}</code></td>
+<td><strong>braces</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>parentesi uncinate</td>
+<td>less/greater-than signs</td>
+<td style="text-align:center"><code>&lt;&gt;</code></td>
+<td><strong>chevrons</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>minore di</td>
+<td>less-than sign</td>
+<td style="text-align:center"><code>&lt;</code></td>
+<td><strong>less-than</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>maggiore di</td>
+<td>greater-than sign</td>
+<td style="text-align:center"><code>&gt;</code></td>
+<td><strong>greater-than</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>uquale</td>
+<td>equals sign</td>
+<td style="text-align:center"><code>=</code></td>
+<td><strong>equals</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>dollaro</td>
+<td>dollar sign</td>
+<td style="text-align:center"><code>$</code></td>
+<td><strong>dollar</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>percento</td>
+<td>percent sign</td>
+<td style="text-align:center"><code>%</code></td>
+<td><strong>percent</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Regole-d'oro">Regole d'oro<a class="anchor-link" href="#Regole-d'oro">¶</a></h2><p>L'azione che più sovente si compie in informatica (la scienza che studia il trattamento delle informazioni), è dare i nomi alle cose. Tutto si basa su questo. Prima diamo dei nomi alle cose e poi possiamo cominciare a ragionarci sopra.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Non è assolutamente detto che dare i nomi alle cose sia facile! Ma tanto per cominciare è bene essere consapevoli che dei buoni nomi ci faciliteranno la vita in futuro tanto quanto quelli cattivi ci condurranno al disastro.</p>
-
 </div>
 </div>
 </div>
-</div></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <blockquote>
 <p>CURIOSITÀ: Anni fa diventò virale tra gli informatici questo post: <a href="https://martinfowler.com/bliki/TwoHardThings.html">TwoHardThings</a>.</p>
 </blockquote>
-
 </div>
 </div>
 </div>
-</div></div></section><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>A questo proposito, ecco delle buone pratiche:</p>
 <ul>
 <li>È bene prendere l'abitudine di nominare sempre i file e cartelle utilizzando l'undersocore <code>_</code> al posto degli spazi vuoti come separatore tra le parole.</li>
@@ -15069,161 +15063,163 @@ della nostra lista. Es.  <code>file01.txt</code>,  <code>file02.txt</code> ecc.<
 <li>Evitare di usare caratteri maiuscoli nel nominare i file se non strettamente necessario in quanto non sempre possiamo sapere se il file system 
 su cui saranno copiati i nostri file (anche da altri utenti) è case sensitive oppure no.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Stili-dei-nomi">Stili dei nomi<a class="anchor-link" href="#Stili-dei-nomi">&#182;</a></h3><p>Per evitare di usare gli spazi, possiamo utilizzare queste convenzioni stilistiche.</p>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Stili-dei-nomi">Stili dei nomi<a class="anchor-link" href="#Stili-dei-nomi">¶</a></h3><p>Per evitare di usare gli spazi, possiamo utilizzare queste convenzioni stilistiche.</p>
 <table>
 <thead>
 <tr>
-  <th>Stile</th>
-  <th>Esempio</th>
+<th>Stile</th>
+<th>Esempio</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td>snake case</td>
-  <td><code>snake_case_name</code></td>
+<td>snake case</td>
+<td><code>snake_case_name</code></td>
 </tr>
 <tr>
-  <td>kebab case</td>
-  <td><code>kebab-case-name</code></td>
+<td>kebab case</td>
+<td><code>kebab-case-name</code></td>
 </tr>
 <tr>
-  <td>camel case</td>
-  <td><code>camelCaseName</code></td>
+<td>camel case</td>
+<td><code>camelCaseName</code></td>
 </tr>
 <tr>
-  <td>pascal case</td>
-  <td><code>PascalCaseName</code></td>
+<td>pascal case</td>
+<td><code>PascalCaseName</code></td>
 </tr>
 </tbody>
 </table>
-
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Proportional-vs.-monospaced-font">Proportional vs. monospaced font<a class="anchor-link" href="#Proportional-vs.-monospaced-font">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Proportional-vs.-monospaced-font">Proportional vs. monospaced font<a class="anchor-link" href="#Proportional-vs.-monospaced-font">¶</a></h2>
 </div>
 </div>
 </div>
-</div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Un font che contiene glifi di larghezze differenti è detto proporzionale (<em>proportional</em>) o a larghezza variabile (<em>variable-width</em>).</p>
 <p>Un font che utilizza un'unica larghezza fissa per tutti i glifi è detto monospaziato (<em>monospaced</em>), non proporzionale (<em>non-proportional</em>) o a larghezza fissa (<em>fixed-width</em>).</p>
-<p><img src="./imgs/vscode/proportional-vs-monospaced-font.png" alt="proportional-vs-monospaced-font.png" /></p>
-
+<p><img alt="proportional-vs-monospaced-font.png" src="../imgs/vscode/proportional-vs-monospaced-font.png"/></p>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Anche se oggi i computer possono visualizzare un'ampia varietà di caratteri, la maggior parte degli <strong>IDE</strong> e degli <strong>editor di codice</strong> utilizza un carattere monospaziato come carattere predefinito. Questo aumenta la leggibilità del codice sorgente che spesso dipende dalla facilità con cui è possibile distinguere i vari simboli e caratteri in modo inequivocabile.</p>
 <p>I font monospaziati consentono inoltre di allineare facilmante e con precisione il testo in colonne verticali. Usando questo tipo di font, possiamo vedere la pagina di testo come una griglia formata da righe e colonne, la cui larghezza è appunto la larghezza di ciascun carattere.</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Per approfondire: <a href="https://en.wikipedia.org/wiki/List_of_monospaced_typefaces">List of monospaced typefaces (Wikipedia)</a>.</p>
-
 </div>
 </div>
 </div>
-</div></div></section></section><section ><section >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Supporto-linguistico">Supporto linguistico<a class="anchor-link" href="#Supporto-linguistico">&#182;</a></h2>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Supporto-linguistico">Supporto linguistico<a class="anchor-link" href="#Supporto-linguistico">¶</a></h2>
 </div>
 </div>
 </div>
 </div><aside class="notes">
-
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Indipendentemente dal tuo livello di conoscenza della lingua inglese, è inevitabile imbattersi in parole sconosciute o frasi molto lunghe e complesse. Se non abbiamo molto tempo a disposizione, è utile potersi levare il dubbio rapidamente. Inoltre la risposta che cerchi potrebbe trovarsi su un sito tedesco o su un forum cinese!</p>
 <p>Dunque, se già non li conosci, ecco alcuni strumenti utili per tradurre testi nella lingua che preferisci:</p>
-
 </div>
 </div>
 </div>
 </div>
-</aside><div class="fragment" >
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li><a href="https://translate.google.it/">Google Translate</a> e la sua <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">estensione ufficiale per Chrome</a>.</li>
 <li><a href="https://www.deepl.com/translator">DeepL</a> e la sua <a href="https://chrome.google.com/webstore/detail/deepl-translate-reading-w/cofdbpoegempjloogbagkncekinflcnj">estensione ufficiale per Chrome</a>.</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Intelligenza-Artificiale">Intelligenza Artificiale<a class="anchor-link" href="#Intelligenza-Artificiale">&#182;</a></h2><p>Siamo giunti nell'era dell'intelligenza artificiale e strumenti come ChatGPT o GitHub Copilot possono essere estremamente utili come supporto all'apprendimento sia per studenti alle prime armi sia per professionisti che necessitano di approfondire le loro conoscenze.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Intelligenza-Artificiale">Intelligenza Artificiale<a class="anchor-link" href="#Intelligenza-Artificiale">¶</a></h2>
 </div>
 </div>
 </div>
-</div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><aside class="notes">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Siamo giunti nell'era dell'intelligenza artificiale e strumenti come ChatGPT o GitHub Copilot possono essere estremamente utili come supporto all'apprendimento sia per studenti alle prime armi sia per professionisti che necessitano di approfondire le loro conoscenze.</p>
 <p>Tuttavia possiamo suggerire alcune buone pratiche, soprattutto per chi è nelle prime fasi di apprendimento, in modo da sfruttare al meglio queste tecnologie:</p>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li><p><strong>Comprendere, non solo copiare:</strong> Quando usi un AI (chatbot o copilot) per generare codice, prenditi il tempo per capire il codice suggerito. Non limitarti a copiarlo, ma cerca di comprendere la logica dietro ogni riga.</p>
 </li>
@@ -15235,6 +15231,18 @@ su cui saranno copiati i nostri file (anche da altri utenti) è case sensitive o
 </li>
 <li><p><strong>Algoritmi, diagrammi di flusso e pseudocodice:</strong> Prima di scrivere codice, progetta la logica del tuo programma. I chatbot possono aiutarti a trasformare queste idee in codice, ma è essenziale sviluppare prima un forte senso della logica di programmazione.</p>
 </li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
 <li><p><strong>Rilettura e refactoring:</strong> Anche se il codice generato dall'AI funziona, prenditi il tempo per rileggerlo e migliorarne la qualità. Questo ti aiuterà a imparare come scrivere codice pulito ed efficiente.</p>
 </li>
 <li><p><strong>Confronto con le best practices:</strong> Confronta il codice suggerito con le best practices di Python. Non tutto il codice generato dall'AI segue necessariamente queste pratiche.</p>
@@ -15244,30 +15252,29 @@ su cui saranno copiati i nostri file (anche da altri utenti) è case sensitive o
 <li><p><strong>Pensiero critico:</strong> Sviluppa la capacità di valutare criticamente le soluzioni proposte dall'AI. Rifletti su come potrebbero essere migliorate o adattate alle tue specifiche esigenze.</p>
 </li>
 </ul>
-
 </div>
 </div>
 </div>
-</div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><aside class="notes">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Dunque, incorporare l'intelligenza artificiale nel processo di apprendimento può accelerare lo sviluppo delle competenze di programmazione, ma è fondamentale utilizzarla come strumenti di supporto, non come sostituto dell'apprendimento attivo e critico.</p>
-
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Dunque, incorporare l'intelligenza artificiale nel processo di apprendimento può accelerare lo sviluppo delle competenze di programmazione, ma è fondamentale utilizzarla come strumento di supporto, non come sostituto dell'apprendimento attivo e critico.</p>
 </div>
 </div>
 </div>
 </div>
-<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</aside></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="I-principali-AI-chatbot">I principali AI chatbot<a class="anchor-link" href="#I-principali-AI-chatbot">&#182;</a></h3><p>Generici (gratuiti):</p>
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="I-principali-AI-chatbot">I principali AI chatbot<a class="anchor-link" href="#I-principali-AI-chatbot">¶</a></h3><p>Generici (gratuiti):</p>
 <ul>
 <li><a href="https://chat.openai.com/">OpenAI ChatGPT</a></li>
 <li><a href="https://copilot.microsoft.com/">Bing Copilot</a></li>
@@ -15277,21 +15284,13 @@ su cui saranno copiati i nostri file (anche da altri utenti) è case sensitive o
 <ul>
 <li><a href="https://copilot.github.com">GitHub Copilot</a> (10€/mese)</li>
 </ul>
-
 </div>
 </div>
 </div>
-</div></div></section></section>
+</div></section></section>
 </div>
 </div>
 </body>
-
-
-
-
-
-
-
 <script>
 require(
     {
@@ -15312,21 +15311,7 @@ require(
             history: true,
             transition: "slide",
             slideNumber: "",
-            plugins: [RevealNotes],
-
-            // The "normal" size of the presentation, aspect ratio will
-            // be preserved when the presentation is scaled to fit different
-            // resolutions. Can be specified using percentage units.
-            width: 1200,
-            height: 700,
-
-            // Factor of the display size that should remain empty around
-            // the content
-            // margin: 0.04,
-
-            // Bounds for smallest/largest possible scale to apply to content
-            // minScale: 0.2,
-            // maxScale: 2.0
+            plugins: [RevealNotes]
         });
 
         var update = function(event){
@@ -15356,5 +15341,4 @@ require(
     }
 );
 </script>
-
 </html>
