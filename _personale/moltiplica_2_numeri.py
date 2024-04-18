@@ -13,11 +13,11 @@ else:
     except ValueError: #avrei potuto usare il generico Exception
         print('Hai inserito un valore che non può essere convertito in float:', sys.argv[1])
     try:
-        secondo_numero = float(sys.argv[1])
+        secondo_numero = float(sys.argv[2])
     except ValueError: #avrei potuto usare il generico Exception
         print('Hai inserito un valore che non può essere convertito in float:', sys.argv[2])
     risultato = primo_numero * secondo_numero
-    
+
 print(f'Il risultato di {primo_numero} per {secondo_numero} è uguale a {risultato}')
 
 
