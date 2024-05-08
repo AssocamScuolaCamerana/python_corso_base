@@ -2,7 +2,7 @@
 import os
 import json
 
-nomeFile = 'dati_di_base.csv' 
+nomeFile = '/workspaces/PPBC02/_personale/dati_di_base.csv'
 nomeFile = os.path.abspath(nomeFile)
 
 with open(nomeFile,'r', encoding= 'utf-8') as fr:
@@ -37,8 +37,7 @@ with open(nomeFile,'r', encoding= 'utf-8') as fr:
 
 
         riga = riga + 1
-
-    # print(dizdati)
+        print(dizdati)
 
 # Convertire il dizionario in JSON
 
@@ -59,12 +58,12 @@ with open(nomeFile,'r', encoding= 'utf-8') as fr:
         
 #lo ritrasformo in un dizionario
     dicDatiNew = json.loads(buffer)
-    print(dicDatiNew)
+    #print(dicDatiNew)
 #rifaccio il file .csv
 
     #devo ottenere l'elenco delle chiavi del dizionario.
     chiavi = dicDatiNew.keys()
-    print(chiavi)
+    #print(chiavi)
 
     righe = 0
 
