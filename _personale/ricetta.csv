@@ -1,0 +1,283 @@
+ingredienti,gradimento
+pasta, acqua, sale, uova, pancetta, pepe,10
+savoiardi, caffÃ¨, mascarpone, cacao in polvere, uova, zucchero, brandy, 10
+farina, acqua, sale, lievito, salsa di pomodoro, mozzarella, basilico,olio EVO,10
+ketchup, farina, acqua, ananas, salsa di pomodoro, mozzarella, 1
+crauti, wurstel, ketchup, aceto, 3
+farina, acqua, ricotta, spinaci, sale, burro, salvia, 7
+riso, acqua, uova, olio di arachidi, mozzarella, prosciutto cotto, piselli, 8
+farina, acqua, carne kebap, sale, 5
+Pasta, Pomodoro, Basilico,7
+Quinoa, Insalata, Pomodoro, Cetriolo, Peperone, Avocado,9
+Pollo, Limone, Olio d'oliva, Aglio, Pepe, Sale, Origano,6
+Patate, Formaggio, Uova, Latte, Burro,8
+Spaghetti, Pancetta, Uova, Pecorino Romano, Pepe,4
+Farina, Pomodoro, Mozzarella, Basilico, Olio d'oliva, Origano,8
+Riso, Funghi, Parmigiano, Scalogno, Vino bianco, Brodo vegetale, Burro,7
+Pomodoro, Cipolla, Aglio, Basilico, Olio d'oliva,5
+Carne macinata, Pasta per lasagne, Salsa besciamella, Parmigiano, Ricotta, Pomodoro, Cipolla,8
+Savoiardi, Mascarpone, Uova, CaffÃ¨, Zucchero,3
+Gnocchi, Pesto di basilico, Parmigiano, Olio d'oliva, Pinoli, Aglio,6
+Cotoletta di pollo, Pan grattato, Uova, Burro, Parmigiano,9
+Melanzane, Zucchine, Pomodori, Cipolle, Peperoni, Aglio, Origano,7
+Salmone, Olio d'oliva, Limone, Prezzemolo, Pepe, Sale,8
+Tortellini, Brodo vegetale, Parmigiano,6
+Farina, Uova, Latte, Zucchero, Burro, Sciroppo d'acero,4
+Bistecca di manzo, Olio d'oliva, Rosmarino, Pepe, Sale,7
+Melanzane, Pomodori, Cipolle, Peperoni, Aceto balsamico, Pinoli,5
+Pollo, Curry, Latte di cocco, Peperoni, Cipolle, Aglio,2
+Gelato al formaggio blu,1
+Toast al formaggio fuso e gelatina di fragole,2
+Spaghetti alla Nutella,3
+Pizza con ananas e wurstel,2
+Pancakes con ketchup,3
+Insalata di patate e marshmallow,2
+Pasta con pollo e marshmallow,3
+Gelato al gusto di sushi,1
+Spaghetti con salsa di caramello,2
+Insalata di gelatina di carne,2
+Pizza con cioccolato e peperoni,3
+Toast con formaggio e marmellata di arancia,3
+Gelato al sapore di cetriolo,1
+Spaghetti alla carbonara con gelatina di limone,2
+Pasta al pesto con gelatina di ciliegia,3
+Pizza con fagioli e gelato alla vaniglia,2
+Torta di fagioli e cipolle,3
+Gelato al sapore di spaghetti alla carbonara,1
+Insalata di gelatina di pollo e funghi,2
+Pasta con ketchup e gelatina di limone,3
+Pizza con gelato al fegato di pollo,2
+Toast con formaggio e gelatina di tonno,3
+Gelato al sapore di salsiccia,1
+Spaghetti con gelatina di maionese,2
+Pasta al sugo di albicocche,3
+Pizza con gelato al gusto di aglio,2
+Toast con formaggio e marmellata di cipolla,3
+Gelato al sapore di bacon,1
+Spaghetti con gelatina di pancetta,2
+Pasta al sugo di cioccolato,3
+Pizza con gelato alla cipolla,2
+Toast con formaggio e gelatina di salmone,3
+Gelato al sapore di cipolla e tonno,1
+Insalata di gelatina di pancetta e cipolla,2
+Pasta con ketchup e gelatina di pancetta,3
+Pizza con gelato al tonno,2
+Toast con formaggio e gelatina di maionese,3
+Gelato al sapore di formaggio e cipolla,1
+Spaghetti con salsa di gelatina alla vaniglia,2
+Pasta con gelato al bacon,3
+Pizza con fagioli e gelato al formaggio,2
+Torta di gelato al bacon,3
+Gelato al sapore di maionese e tonno,1
+Insalata di gelatina di pancetta e cipolla,2
+Pasta con ketchup e gelato al tonno,3
+Pizza con gelato alla maionese,2
+Toast con formaggio e gelatina di salmone,3
+Gelato al sapore di cipolla e pancetta,1
+Spaghetti con gelatina di formaggio,2
+pasta, acqua, sale, uova, pancetta, pepe,10
+savoiardi, caffÃ¨, mascarpone, cacao in polvere, uova, zucchero, brandy, 10
+farina, acqua, sale, lievito, salsa di pomodoro, mozzarella, basilico,olio EVO,10
+ketchup, farina, acqua, ananas, salsa di pomodoro, mozzarella, 1
+crauti, wurstel, ketchup, aceto, 3
+farina, acqua, ricotta, spinaci, sale, burro, salvia, 7
+riso, acqua, uova, olio di arachidi, mozzarella, prosciutto cotto, piselli, 8
+farina, acqua, carne kebap, sale, 5
+Pasta, Pomodoro, Basilico,7
+Quinoa, Insalata, Pomodoro, Cetriolo, Peperone, Avocado,9
+Pollo, Limone, Olio d'oliva, Aglio, Pepe, Sale, Origano,6
+Patate, Formaggio, Uova, Latte, Burro,8
+Spaghetti, Pancetta, Uova, Pecorino Romano, Pepe,4
+Farina, Pomodoro, Mozzarella, Basilico, Olio d'oliva, Origano,8
+Riso, Funghi, Parmigiano, Scalogno, Vino bianco, Brodo vegetale, Burro,7
+Pomodoro, Cipolla, Aglio, Basilico, Olio d'oliva,5
+Carne macinata, Pasta per lasagne, Salsa besciamella, Parmigiano, Ricotta, Pomodoro, Cipolla,8
+Savoiardi, Mascarpone, Uova, CaffÃ¨, Zucchero,3
+Gnocchi, Pesto di basilico, Parmigiano, Olio d'oliva, Pinoli, Aglio,6
+Cotoletta di pollo, Pan grattato, Uova, Burro, Parmigiano,9
+Melanzane, Zucchine, Pomodori, Cipolle, Peperoni, Aglio, Origano,7
+Salmone, Olio d'oliva, Limone, Prezzemolo, Pepe, Sale,8
+Tortellini, Brodo vegetale, Parmigiano,6
+Farina, Uova, Latte, Zucchero, Burro, Sciroppo d'acero,4
+Bistecca di manzo, Olio d'oliva, Rosmarino, Pepe, Sale,7
+Melanzane, Pomodori, Cipolle, Peperoni, Aceto balsamico, Pinoli,5
+Pollo, Curry, Latte di cocco, Peperoni, Cipolle, Aglio,2
+Gelato al formaggio blu,1
+Toast al formaggio fuso e gelatina di fragole,2
+Spaghetti alla Nutella,3
+Pizza con ananas e wurstel,2
+Pancakes con ketchup,3
+Insalata di patate e marshmallow,2
+Pasta con pollo e marshmallow,3
+Gelato al gusto di sushi,1
+Spaghetti con salsa di caramello,2
+Insalata di gelatina di carne,2
+Pizza con cioccolato e peperoni,3
+Toast con formaggio e marmellata di arancia,3
+Gelato al sapore di cetriolo,1
+Spaghetti alla carbonara con gelatina di limone,2
+Pasta al pesto con gelatina di ciliegia,3
+Pizza con fagioli e gelato alla vaniglia,2
+Torta di fagioli e cipolle,3
+Gelato al sapore di spaghetti alla carbonara,1
+Insalata di gelatina di pollo e funghi,2
+Pasta con ketchup e gelatina di limone,3
+Pizza con gelato al fegato di pollo,2
+Toast con formaggio e gelatina di tonno,3
+Gelato al sapore di salsiccia,1
+Spaghetti con gelatina di maionese,2
+pasta, acqua, sale, uova, pancetta, pepe,10
+savoiardi, caffÃ¨, mascarpone, cacao in polvere, uova, zucchero, brandy, 10
+farina, acqua, sale, lievito, salsa di pomodoro, mozzarella, basilico,olio EVO,10
+ketchup, farina, acqua, ananas, salsa di pomodoro, mozzarella, 1
+crauti, wurstel, ketchup, aceto, 3
+farina, acqua, ricotta, spinaci, sale, burro, salvia, 7
+riso, acqua, uova, olio di arachidi, mozzarella, prosciutto cotto, piselli, 8
+farina, acqua, carne kebap, sale, 5
+Pasta, Pomodoro, Basilico,7
+Quinoa, Insalata, Pomodoro, Cetriolo, Peperone, Avocado,9
+Pollo, Limone, Olio d'oliva, Aglio, Pepe, Sale, Origano,6
+Patate, Formaggio, Uova, Latte, Burro,8
+Spaghetti, Pancetta, Uova, Pecorino Romano, Pepe,4
+Farina, Pomodoro, Mozzarella, Basilico, Olio d'oliva, Origano,8
+Riso, Funghi, Parmigiano, Scalogno, Vino bianco, Brodo vegetale, Burro,7
+Pomodoro, Cipolla, Aglio, Basilico, Olio d'oliva,5
+Carne macinata, Pasta per lasagne, Salsa besciamella, Parmigiano, Ricotta, Pomodoro, Cipolla,8
+Savoiardi, Mascarpone, Uova, CaffÃ¨, Zucchero,3
+Gnocchi, Pesto di basilico, Parmigiano, Olio d'oliva, Pinoli, Aglio,6
+Cotoletta di pollo, Pan grattato, Uova, Burro, Parmigiano,9
+Melanzane, Zucchine, Pomodori, Cipolle, Peperoni, Aglio, Origano,7
+Salmone, Olio d'oliva, Limone, Prezzemolo, Pepe, Sale,8
+Tortellini, Brodo vegetale, Parmigiano,6
+Farina, Uova, Latte, Zucchero, Burro, Sciroppo d'acero,4
+Bistecca di manzo, Olio d'oliva, Rosmarino, Pepe, Sale,7
+Melanzane, Pomodori, Cipolle, Peperoni, Aceto balsamico, Pinoli,5
+Pollo, Curry, Latte di cocco, Peperoni, Cipolle, Aglio,2
+Gelato al formaggio blu,1
+Toast al formaggio fuso e gelatina di fragole,2
+Spaghetti alla Nutella,3
+Pizza con ananas e wurstel,2
+Pancakes con ketchup,3
+Insalata di patate e marshmallow,2
+Pasta con pollo e marshmallow,3
+Gelato al gusto di sushi,1
+Spaghetti con salsa di caramello,2
+Insalata di gelatina di carne,2
+Pizza con cioccolato e peperoni,3
+Toast con formaggio e marmellata di arancia,3
+Gelato al sapore di cetriolo,1
+Spaghetti alla carbonara con gelatina di limone,2
+Pasta al pesto con gelatina di ciliegia,3
+Pizza con fagioli e gelato alla vaniglia,2
+Torta di fagioli e cipolle,3
+Gelato al sapore di spaghetti alla carbonara,1
+Insalata di gelatina di pollo e funghi,2
+Pasta con ketchup e gelatina di limone,3
+Pizza con gelato al fegato di pollo,2
+Toast con formaggio e gelatina di tonno,3
+Gelato al sapore di salsiccia,1
+Spaghetti con gelatina di maionese,2
+Pasta al sugo di albicocche,3
+Pizza con gelato al gusto di aglio,2
+Toast con formaggio e marmellata di cipolla,3
+Gelato al sapore di bacon,1
+Spaghetti con gelatina di pancetta,2
+Pasta al sugo di cioccolato,3
+Pizza con gelato alla cipolla,2
+Toast con formaggio e gelatina di salmone,3
+Gelato al sapore di cipolla e tonno,1
+Insalata di gelatina di pancetta e cipolla,2
+Pasta con ketchup e gelatina di pancetta,3
+Pizza con gelato al tonno,2
+Toast con formaggio e gelatina di maionese,3
+Gelato al sapore di formaggio e cipolla,1
+Spaghetti con salsa di gelatina alla vaniglia,2
+Pasta con gelato al bacon,3
+Pizza con fagioli e gelato al formaggio,2
+Torta di gelato al bacon,3
+Gelato al sapore di maionese e tonno,1
+Insalata di gelatina di pancetta e cipolla,2
+Pasta con ketchup e gelato al tonno,3
+Pizza con gelato alla maionese,2
+Toast con formaggio e gelatina di salmone,3
+Gelato al sapore di cipolla e pancetta,1
+Spaghetti con gelatina di formaggio,2
+pasta, acqua, sale, uova, pancetta, pepe,10
+savoiardi, caffÃ¨, mascarpone, cacao in polvere, uova, zucchero, brandy, 10
+farina, acqua, sale, lievito, salsa di pomodoro, mozzarella, basilico,olio EVO,10
+ketchup, farina, acqua, ananas, salsa di pomodoro, mozzarella, 1
+crauti, wurstel, ketchup, aceto, 3
+farina, acqua, ricotta, spinaci, sale, burro, salvia, 7
+riso, acqua, uova, olio di arachidi, mozzarella, prosciutto cotto, piselli, 8
+farina, acqua, carne kebap, sale, 5
+Pasta, Pomodoro, Basilico,7
+Quinoa, Insalata, Pomodoro, Cetriolo, Peperone, Avocado,9
+Pollo, Limone, Olio d'oliva, Aglio, Pepe, Sale, Origano,6
+Patate, Formaggio, Uova, Latte, Burro,8
+Spaghetti, Pancetta, Uova, Pecorino Romano, Pepe,4
+Farina, Pomodoro, Mozzarella, Basilico, Olio d'oliva, Origano,8
+Riso, Funghi, Parmigiano, Scalogno, Vino bianco, Brodo vegetale, Burro,7
+Pomodoro, Cipolla, Aglio, Basilico, Olio d'oliva,5
+Carne macinata, Pasta per lasagne, Salsa besciamella, Parmigiano, Ricotta, Pomodoro, Cipolla,8
+Savoiardi, Mascarpone, Uova, CaffÃ¨, Zucchero,3
+Gnocchi, Pesto di basilico, Parmigiano, Olio d'oliva, Pinoli, Aglio,6
+Cotoletta di pollo, Pan grattato, Uova, Burro, Parmigiano,9
+Melanzane, Zucchine, Pomodori, Cipolle, Peperoni, Aglio, Origano,7
+Salmone, Olio d'oliva, Limone, Prezzemolo, Pepe, Sale,8
+Tortellini, Brodo vegetale, Parmigiano,6
+Farina, Uova, Latte, Zucchero, Burro, Sciroppo d'acero,4
+Bistecca di manzo, Olio d'oliva, Rosmarino, Pepe, Sale,7
+Melanzane, Pomodori, Cipolle, Peperoni, Aceto balsamico, Pinoli,5
+Pollo, Curry, Latte di cocco, Peperoni, Cipolle, Aglio,2
+Gelato al formaggio blu,1
+Toast al formaggio fuso e gelatina di fragole,2
+Spaghetti alla Nutella,3
+Pizza con ananas e wurstel,2
+Pancakes con ketchup,3
+Insalata di patate e marshmallow,2
+Pasta con pollo e marshmallow,3
+Gelato al gusto di sushi,1
+Spaghetti con salsa di caramello,2
+Insalata di gelatina di carne,2
+Pizza con cioccolato e peperoni,3
+Toast con formaggio e marmellata di arancia,3
+Gelato al sapore di cetriolo,1
+Spaghetti alla carbonara con gelatina di limone,2
+Pasta al pesto con gelatina di ciliegia,3
+Pizza con fagioli e gelato alla vaniglia,2
+Torta di fagioli e cipolle,3
+Gelato al sapore di spaghetti alla carbonara,1
+Insalata di gelatina di pollo e funghi,2
+Pasta con ketchup e gelatina di limone,3
+Pizza con gelato al fegato di pollo,2
+Toast con formaggio e gelatina di tonno,3
+Gelato al sapore di salsiccia,1
+Spaghetti con gelatina di maionese,2
+pasta, acqua, sale, uova, pancetta, pepe,10
+savoiardi, caffÃ¨, mascarpone, cacao in polvere, uova, zucchero, brandy, 10
+farina, acqua, sale, lievito, salsa di pomodoro, mozzarella, basilico,olio EVO,10
+ketchup, farina, acqua, ananas, salsa di pomodoro, mozzarella, 1
+crauti, wurstel, ketchup, aceto, 3
+farina, acqua, ricotta, spinaci, sale, burro, salvia, 7
+riso, acqua, uova, olio di arachidi, mozzarella, prosciutto cotto, piselli, 8
+farina, acqua, carne kebap, sale, 5
+Pasta, Pomodoro, Basilico,7
+Quinoa, Insalata, Pomodoro, Cetriolo, Peperone, Avocado,9
+Pollo, Limone, Olio d'oliva, Aglio, Pepe, Sale, Origano,6
+Patate, Formaggio, Uova, Latte, Burro,8
+Spaghetti, Pancetta, Uova, Pecorino Romano, Pepe,4
+Farina, Pomodoro, Mozzarella, Basilico, Olio d'oliva, Origano,8
+Riso, Funghi, Parmigiano, Scalogno, Vino bianco, Brodo vegetale, Burro,7
+Pomodoro, Cipolla, Aglio, Basilico, Olio d'oliva,5
+Carne macinata, Pasta per lasagne, Salsa besciamella, Parmigiano, Ricotta, Pomodoro, Cipolla,8
+Savoiardi, Mascarpone, Uova, CaffÃ¨, Zucchero,3
+Gnocchi, Pesto di basilico, Parmigiano, Olio d'oliva, Pinoli, Aglio,6
+Cotoletta di pollo, Pan grattato, Uova, Burro, Parmigiano,9
+Melanzane, Zucchine, Pomodori, Cipolle, Peperoni, Aglio, Origano,7
+Salmone, Olio d'oliva, Limone, Prezzemolo, Pepe, Sale,8
+Tortellini, Brodo vegetale, Parmigiano,6
+Farina, Uova, Latte, Zucchero, Burro, Sciroppo d'acero,4
+Bistecca di manzo, Olio d'oliva, Rosmarino, Pepe, Sale,7
+Melanzane, Pomodori, Cipolle, Peperoni, Aceto balsamico, Pinoli,5
+Pollo, Curry, Latte di cocco, Peperoni, Cipolle, Aglio,2
+Gelato al formaggio blu,1
