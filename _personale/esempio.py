@@ -7,10 +7,14 @@ from sklearn.ensemble import RandomForestRegressor
 
 from sklearn.model_selection import train_test_split
 
-data=pd.read_csv('ricette.csv')
+with open('/workspaces/PPBC02/_personale/ricetta.csv','r',encoding = 'utf-8')as data:
+    pipo = data.read()
+    print(pipo)
 
-X = data["ingredienti"]
-y = data["gradimento"]
+for ingredienti,gradimento in data:
+
+    X = data["ingredienti"]
+    y = data["gradimento"]
 
 model = make_pipeline(TfidfVectorizer(), Ridge())
 
@@ -23,5 +27,5 @@ score = model.score(X_test, y_test) #testa il modello
 nuova_ricetta = ["farina, lievito, acqua, sale, olio EVO"]
 gradimento_predetto = model.predict(nuova_ricetta)
 
-print(f'Punteggio del modello {score}')
-print(f'Puteggio predetto per {nuova_ricetta} = {gradimento_predetto}')
+#print(f'Punteggio del modello {score}')
+#print(f'Puteggio predetto per {nuova_ricetta} = {gradimento_predetto}')
