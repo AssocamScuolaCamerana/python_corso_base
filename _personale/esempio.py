@@ -1,5 +1,5 @@
 import pandas as pd
-
+import numpy as np
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import Ridge
@@ -7,7 +7,8 @@ from sklearn.ensemble import RandomForestRegressor
 
 from sklearn.model_selection import train_test_split
 
-data=pd.read_csv('ricette.csv')
+data=pd.read_csv(filepath_or_buffer = '/workspaces/PPBC02/_personale/ricette.csv')
+print(data.head())
 
 # with open('/workspaces/PPBC02/_personale/ricetta.csv','r',encoding = 'utf-8')as data:
 #     pipo = data.read()
@@ -29,5 +30,5 @@ score = model.score(X_test, y_test) #testa il modello
 nuova_ricetta = ["farina, lievito, acqua, sale, olio EVO"]
 gradimento_predetto = model.predict(nuova_ricetta)
 
-print(f'Punteggio del modello {score}')
-print(f'Puteggio predetto per {nuova_ricetta} = {gradimento_predetto}')
+# print(f'Punteggio del modello {score}')
+# print(f'Puteggio predetto per {nuova_ricetta} = {gradimento_predetto}')
