@@ -7,14 +7,14 @@ from sklearn.ensemble import RandomForestRegressor
 
 from sklearn.model_selection import train_test_split
 
-data=pd.read_csv(filepath_or_buffer = '/workspaces/PPBC02/_personale/ricette.csv')
+#data=pd.read_csv(filepath_or_buffer = '/workspaces/PPBC02/_personale/ricette.csv')
     
 
 #print(data)
 
-# with open('/workspaces/PPBC02/_personale/ricette.csv','r',encoding = 'utf-8')as data:
-#     pipo = data.read()
-#     print(pipo)
+with open('/workspaces/PPBC02/_personale/ricette.csv','r',encoding = 'utf-8')as data:
+    pipo = data.read()
+    print(pipo)
 
 
 
