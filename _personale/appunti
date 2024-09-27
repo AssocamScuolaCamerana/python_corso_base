@@ -1,0 +1,49 @@
+appunti:
+
+(if) condizione vera
+
+<else> condizione falsa
+
+ciclo <for> condizione lista
+
+ciclo <while> o <while true>
+
+<break> esce dal ciclo
+
+<continue> ricomincia il ciclo
+
+<with>
+<fr = open> ('file.csv', 'r', <encoding> = 'utf-8')
+
+dati = <fr.read>
+
+<fr.close>
+
+<def> quadrato (Lato)
+  Per = lato * 4
+  Arco = lato * lato
+  <return> = per,arco
+
+p = 20
+a = 25
+
+<from> funzioni <import> quadrato
+p,a = quadrato(5)
+
+4 pilastri OPP
+  1. Ercditarieta
+  2. Polimorfismo
+  3. Incapsulamento
+  4. Astrazione
+
+class Animal:
+
+ani = animale
+v = ani.verso
+
+<def> verso <self>
+  <return> (bau)
+'FrontEnd' 'BackEnd'
+i Pc 'API Restful' con dati JSON
+
+
